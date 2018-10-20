@@ -811,7 +811,7 @@ F 3 "" H 3850 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 4800 4200 4950
+	2250 3800 2250 3950
 Wire Wire Line
 	2150 2400 2150 2500
 $Comp
@@ -898,18 +898,18 @@ Wire Wire Line
 $Comp
 L Device:Jumper_NO_Small JP1
 U 1 1 5BE05EFF
-P 4450 4800
-F 0 "JP1" H 4450 4985 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4450 4894 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4450 4800 50  0001 C CNN
-F 3 "~" H 4450 4800 50  0001 C CNN
-	1    4450 4800
-	-1   0    0    1   
+P 2000 3800
+F 0 "JP1" H 2000 3985 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2000 3894 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2000 3800 50  0001 C CNN
+F 3 "~" H 2000 3800 50  0001 C CNN
+	1    2000 3800
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4750 4800 4550 4800
+	1700 3800 1900 3800
 Wire Wire Line
-	4350 4800 4200 4800
+	2100 3800 2250 3800
 Text Label 2000 3600 2    50   ~ 0
 PB9
 Wire Wire Line
@@ -1042,14 +1042,10 @@ Wire Wire Line
 	3950 4550 3950 4600
 Wire Wire Line
 	3950 4600 4750 4600
-Text Label 2000 3800 2    50   ~ 0
+Text Label 2000 3700 2    50   ~ 0
 PC13
 Wire Wire Line
-	2000 3800 1700 3800
-Wire Wire Line
-	1700 3700 2150 3700
-Wire Wire Line
-	2150 3700 2150 3650
+	2000 3700 1700 3700
 $Comp
 L power:+3V3 #PWR017
 U 1 1 5BCAC201
@@ -1075,13 +1071,13 @@ $EndComp
 $Comp
 L power:+5V #PWR021
 U 1 1 5BCACB86
-P 4200 4950
-F 0 "#PWR021" H 4200 4800 50  0001 C CNN
-F 1 "+5V" H 4200 5150 50  0000 C CNN
-F 2 "" H 4200 4950 50  0001 C CNN
-F 3 "" H 4200 4950 50  0001 C CNN
-	1    4200 4950
-	-1   0    0    1   
+P 2250 3950
+F 0 "#PWR021" H 2250 3800 50  0001 C CNN
+F 1 "+5V" H 2250 4150 50  0000 C CNN
+F 2 "" H 2250 3950 50  0001 C CNN
+F 3 "" H 2250 3950 50  0001 C CNN
+	1    2250 3950
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR024
