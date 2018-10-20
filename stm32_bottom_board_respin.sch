@@ -280,7 +280,7 @@ U 1 1 5BCC1C7F
 P 7800 3700
 F 0 "J1" H 7880 3692 50  0000 L CNN
 F 1 "Conn_01x02" H 7880 3601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 7800 3700 50  0001 C CNN
+F 2 "w_conn_mkds:mkds_1,5-2" H 7800 3700 50  0001 C CNN
 F 3 "~" H 7800 3700 50  0001 C CNN
 	1    7800 3700
 	1    0    0    -1  

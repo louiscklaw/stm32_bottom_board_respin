@@ -76,19 +76,6 @@ Wire Wire Line
 	6250 1900 6250 2000
 Wire Wire Line
 	6250 2600 6250 2900
-$Comp
-L stm32_bottom_board_respin-rescue:SS9013_J3-taobao-transistor Q?
-U 1 1 5BCB856E
-P 6150 3100
-AR Path="/5BCB856E" Ref="Q?"  Part="1" 
-AR Path="/5BCB679F/5BCB856E" Ref="Q2"  Part="1" 
-F 0 "Q2" H 6341 3146 50  0000 L CNN
-F 1 "SS9013_J3" H 6341 3055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23_HandSoldering" H 6350 3025 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6150 3100 50  0001 L CNN
-	1    6150 3100
-	1    0    0    -1  
-$EndComp
 Text HLabel 7350 2400 2    50   Input ~ 0
 SSR-25-DA1
 Text HLabel 7350 2600 2    50   Input ~ 0
@@ -97,4 +84,15 @@ Wire Wire Line
 	6250 2400 7350 2400
 Wire Wire Line
 	6250 2600 7350 2600
+$Comp
+L taobao-transistor:SS9013_J3 Q3
+U 1 1 5BCBD15E
+P 6150 3100
+F 0 "Q3" H 6350 3150 50  0000 L CNN
+F 1 "SS9013_J3" H 6350 3100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6350 3025 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6150 3100 50  0001 L CNN
+	1    6150 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

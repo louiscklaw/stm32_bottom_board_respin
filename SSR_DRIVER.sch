@@ -167,12 +167,12 @@ Wire Wire Line
 	5050 2000 5350 2000
 Connection ~ 5050 2000
 $Comp
-L taobao-transistor:2N3904(1AM) Q?
+L taobao-transistor:2N3904(1AM) Q1
 U 1 1 5BCBBF31
 P 5100 3000
-F 0 "Q?" H 5300 3050 50  0000 L CNN
+F 0 "Q1" H 5300 3050 50  0000 L CNN
 F 1 "2N3904(1AM)" H 5300 3000 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5300 2925 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5300 2925 50  0001 L CIN
 F 3 "" H 5100 3000 50  0001 L CNN
 	1    5100 3000
 	1    0    0    -1  
