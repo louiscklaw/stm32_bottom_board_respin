@@ -18,6 +18,8 @@ $Comp
 L stm32_bottom_board_respin-rescue:74AHCT1G125-taobao-components U1
 U 1 1 5BCB46C2
 P 5400 3200
+AR Path="/5BCB46C2" Ref="U1"  Part="1" 
+AR Path="/5BCB4060/5BCB46C2" Ref="U1"  Part="1" 
 F 0 "U1" H 5375 3026 50  0000 C CNN
 F 1 "74AHCT1G125" H 5375 2935 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5400 3200 50  0001 C CNN

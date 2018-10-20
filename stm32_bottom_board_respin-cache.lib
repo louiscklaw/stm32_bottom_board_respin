@@ -313,28 +313,6 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_BJT_2N3904
-#
-DEF Transistor_BJT_2N3904 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT_2N3904" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-$FPLIST
- TO?92*
-$ENDFPLIST
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
-X E 1 100 -200 100 U 50 50 1 1 P
-X B 2 -200 0 225 R 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # customized_power_+5V
 #
 DEF customized_power_+5V #PWR 0 0 Y Y 1 F P
@@ -405,65 +383,6 @@ DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VDD 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# stm32_bottom_board_respin-rescue_+5V-tinkerforge
-#
-DEF stm32_bottom_board_respin-rescue_+5V-tinkerforge #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stm32_bottom_board_respin-rescue_+5V-tinkerforge" 0 140 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# stm32_bottom_board_respin-rescue_74AHCT1G125-taobao-components
-#
-DEF stm32_bottom_board_respin-rescue_74AHCT1G125-taobao-components U 0 40 Y Y 1 F N
-F0 "U" -100 150 50 H V C CNN
-F1 "stm32_bottom_board_respin-rescue_74AHCT1G125-taobao-components" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *SOT*23-5*
- SG-*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 -150 100 -150 -100 100 0 -150 100 N
-X ~ 1 0 200 150 D 40 40 1 1 I I
-X ~ 2 -300 0 150 R 40 40 1 1 I
-X GND 3 50 -50 0 D 40 40 1 1 W N
-X ~ 4 250 0 150 L 40 40 1 1 T
-X VCC 5 50 50 0 U 40 40 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# stm32_bottom_board_respin-rescue_SS9013_J3-taobao-transistor
-#
-DEF stm32_bottom_board_respin-rescue_SS9013_J3-taobao-transistor Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "stm32_bottom_board_respin-rescue_SS9013_J3-taobao-transistor" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-$FPLIST
- TO?92*
- *SOT*23*
-$ENDFPLIST
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
-X B 1 -200 0 225 R 50 50 1 1 P
-X E 2 100 -200 100 U 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -863,6 +782,52 @@ P 2 0 1 0 -50 60 -30 60 N
 P 2 0 1 0 -40 50 -40 70 N
 X ~ 1 0 100 73 D 50 50 1 1 P
 X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-transistor_2N3904(1AM)
+#
+DEF taobao-transistor_2N3904(1AM) Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "taobao-transistor_2N3904(1AM)" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ TO?92*
+ *SOT*23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 P
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-transistor_SS9013_J3
+#
+DEF taobao-transistor_SS9013_J3 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "taobao-transistor_SS9013_J3" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ TO?92*
+ *SOT*23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 P
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

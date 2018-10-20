@@ -19,8 +19,8 @@ L Connector_Generic:Conn_01x03 J2
 U 1 1 5BCB416C
 P 8700 8400
 F 0 "J2" H 8780 8442 50  0000 L CNN
-F 1 "Conn_01x03" H 8780 8351 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 8700 8400 50  0001 C CNN
+F 1 "WS2812" H 8780 8351 50  0000 L CNN
+F 2 "w_conn_mkds:mkds_1,5-3" H 8700 8400 50  0001 C CNN
 F 3 "~" H 8700 8400 50  0001 C CNN
 	1    8700 8400
 	1    0    0    -1  
@@ -91,8 +91,8 @@ L Connector_Generic:Conn_01x02 J5
 U 1 1 5BCB6490
 P 9650 6450
 F 0 "J5" H 9730 6442 50  0000 L CNN
-F 1 "Conn_01x02" H 9730 6351 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 9650 6450 50  0001 C CNN
+F 1 "PURFUME" H 9730 6351 50  0000 L CNN
+F 2 "w_conn_mkds:mkds_1,5-2" H 9650 6450 50  0001 C CNN
 F 3 "~" H 9650 6450 50  0001 C CNN
 	1    9650 6450
 	1    0    0    -1  
@@ -139,8 +139,8 @@ L Connector_Generic:Conn_01x02 J4
 U 1 1 5BCB931B
 P 9600 4950
 F 0 "J4" H 9680 4942 50  0000 L CNN
-F 1 "Conn_01x02" H 9680 4851 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 9600 4950 50  0001 C CNN
+F 1 "SSR" H 9680 4851 50  0000 L CNN
+F 2 "w_conn_mkds:mkds_1,5-2" H 9600 4950 50  0001 C CNN
 F 3 "~" H 9600 4950 50  0001 C CNN
 	1    9600 4950
 	1    0    0    -1  
@@ -179,8 +179,8 @@ L Connector_Generic:Conn_01x04 J3
 U 1 1 5BCBC3BF
 P 9550 3800
 F 0 "J3" H 9630 3792 50  0000 L CNN
-F 1 "Conn_01x04" H 9630 3701 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Horizontal" H 9550 3800 50  0001 C CNN
+F 1 "FAN_PWM" H 9630 3701 50  0000 L CNN
+F 2 "w_conn_mkds:mkds_1,5-4" H 9550 3800 50  0001 C CNN
 F 3 "~" H 9550 3800 50  0001 C CNN
 	1    9550 3800
 	1    0    0    -1  

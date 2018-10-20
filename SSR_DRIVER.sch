@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:2N3904 Q1
-U 1 1 5BCB4AD7
-P 5100 3000
-F 0 "Q1" H 5291 3046 50  0000 L CNN
-F 1 "2N3904" H 5291 2955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5300 2925 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5100 3000 50  0001 L CNN
-	1    5100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R331 R1
 U 1 1 5BCB4B6E
 P 4500 3000
@@ -177,4 +166,15 @@ Wire Wire Line
 Wire Wire Line
 	5050 2000 5350 2000
 Connection ~ 5050 2000
+$Comp
+L taobao-transistor:2N3904(1AM) Q?
+U 1 1 5BCBBF31
+P 5100 3000
+F 0 "Q?" H 5300 3050 50  0000 L CNN
+F 1 "2N3904(1AM)" H 5300 3000 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5300 2925 50  0001 L CIN
+F 3 "" H 5100 3000 50  0001 L CNN
+	1    5100 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

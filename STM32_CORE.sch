@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -424,7 +424,7 @@ U 1 1 5BCC6C8D
 P 14700 6700
 F 0 "Y1" V 14654 6788 50  0000 L CNN
 F 1 "O8M" V 14745 6788 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 14700 6700 50  0001 C CNN
+F 2 "w_crystal:hc-49_smd" H 14700 6700 50  0001 C CNN
 F 3 "~" H 14700 6700 50  0001 C CNN
 	1    14700 6700
 	0    1    1    0   

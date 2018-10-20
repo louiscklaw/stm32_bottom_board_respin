@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L stm32_bottom_board_respin-rescue:SS9013_J3-taobao-transistor Q?
-U 1 1 5BCBA2C4
-P 2750 2200
-AR Path="/5BCBA2C4" Ref="Q?"  Part="1" 
-AR Path="/5BCBA20B/5BCBA2C4" Ref="Q3"  Part="1" 
-F 0 "Q3" H 2941 2246 50  0000 L CNN
-F 1 "SS9013_J3" H 2941 2155 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2950 2125 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2750 2200 50  0001 L CNN
-	1    2750 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R471 R7
 U 1 1 5BCBA355
 P 2150 2200
@@ -99,6 +86,17 @@ F 1 "VDD" H 2867 1473 50  0000 C CNN
 F 2 "" H 2850 1300 50  0001 C CNN
 F 3 "" H 2850 1300 50  0001 C CNN
 	1    2850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-transistor:SS9013_J3 Q?
+U 1 1 5BCBC4D0
+P 2750 2200
+F 0 "Q?" H 2950 2250 50  0000 L CNN
+F 1 "SS9013_J3" H 2950 2200 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2950 2125 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2750 2200 50  0001 L CNN
+	1    2750 2200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
