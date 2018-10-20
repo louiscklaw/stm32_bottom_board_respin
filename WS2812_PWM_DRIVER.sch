@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L taobao-components:74AHCT1G125 U1
+L stm32_bottom_board_respin-rescue:74AHCT1G125-taobao-components U1
 U 1 1 5BCB46C2
 P 5400 3200
 F 0 "U1" H 5375 3026 50  0000 C CNN
