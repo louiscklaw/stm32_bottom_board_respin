@@ -49,6 +49,11 @@
 
 /* Private define ------------------------------------------------------------*/
 
+#define SSR_25_OUTPUT_Pin GPIO_PIN_0
+#define SSR_25_OUTPUT_GPIO_Port GPIOB
+#define PURFUME_OUTPUT_Pin GPIO_PIN_1
+#define PURFUME_OUTPUT_GPIO_Port GPIOB
+
 /* ########################## Assert Selection ############################## */
 /**
   * @brief Uncomment the line below to expanse the "assert_param" macro in the 

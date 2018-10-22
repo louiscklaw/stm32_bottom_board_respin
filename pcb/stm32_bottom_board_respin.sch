@@ -239,21 +239,21 @@ $EndSheet
 $Comp
 L power:VDD #PWR02
 U 1 1 5BCBFA5F
-P 7150 1050
-F 0 "#PWR02" H 7150 900 50  0001 C CNN
-F 1 "VDD" H 7167 1223 50  0000 C CNN
-F 2 "" H 7150 1050 50  0001 C CNN
-F 3 "" H 7150 1050 50  0001 C CNN
-	1    7150 1050
+P 6850 1450
+F 0 "#PWR02" H 6850 1300 50  0001 C CNN
+F 1 "VDD" H 6867 1623 50  0000 C CNN
+F 2 "" H 6850 1450 50  0001 C CNN
+F 3 "" H 6850 1450 50  0001 C CNN
+	1    6850 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 1050 6700 1250
+	6400 1450 6400 1650
 Wire Wire Line
-	6700 1250 7150 1250
+	6400 1650 6850 1650
 Wire Wire Line
-	7150 1250 7150 1050
-Text Notes 6300 1450 0    50   ~ 0
+	6850 1650 6850 1450
+Text Notes 6000 1850 0    50   ~ 0
 the power of driver circuit is by VDD instead of +5V\nto provision the power control of the driver circuit
 Text Label 8550 3700 0    50   ~ 0
 FAN_48V
@@ -309,12 +309,12 @@ $EndSheet
 $Comp
 L tinkerforge:+5V #PWR0101
 U 1 1 5BCEC385
-P 6700 1050
-F 0 "#PWR0101" H 6700 900 50  0001 C CNN
-F 1 "+5V" H 6715 1223 50  0000 C CNN
-F 2 "" H 6700 1050 50  0000 C CNN
-F 3 "" H 6700 1050 50  0000 C CNN
-	1    6700 1050
+P 6400 1450
+F 0 "#PWR0101" H 6400 1300 50  0001 C CNN
+F 1 "+5V" H 6415 1623 50  0000 C CNN
+F 2 "" H 6400 1450 50  0000 C CNN
+F 3 "" H 6400 1450 50  0000 C CNN
+	1    6400 1450
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -366,34 +366,40 @@ Wire Wire Line
 	8650 2650 9400 2650
 Text Label 8650 2650 0    50   ~ 0
 IONAIR_RX
-Text Label 4850 2250 0    50   ~ 0
+Text Label 3150 1150 0    50   ~ 0
 PA2
-Text Label 4850 2400 0    50   ~ 0
+Text Label 3150 1300 0    50   ~ 0
 PA3
-Text Label 6500 2250 2    50   ~ 0
+Text Label 4800 1150 2    50   ~ 0
 IONAIR-TTL-TX
-Text Label 6500 2400 2    50   ~ 0
+Text Label 4800 1300 2    50   ~ 0
 IONAIR-TTL-RX
 Wire Wire Line
-	6500 2250 4850 2250
+	4800 1150 3150 1150
 Wire Wire Line
-	6500 2400 4850 2400
-Text Label 6500 3000 2    50   ~ 0
+	4800 1300 3150 1300
+Text Label 4800 1900 2    50   ~ 0
 STM32_WS2812_OUTPUT
 Wire Wire Line
-	6500 3000 4850 3000
-Text Label 6500 2850 2    50   ~ 0
+	4800 1900 3150 1900
+Text Label 4800 1750 2    50   ~ 0
 STM32_SSR_OUTPUT
-Wire Wire Line
-	6500 2850 5250 2850
-Text Label 6500 2700 2    50   ~ 0
+Text Label 4800 1600 2    50   ~ 0
 STM32_SSR-25-DA_OUTPUT
-Wire Wire Line
-	6500 2700 5300 2700
-Text Label 6500 2550 2    50   ~ 0
+Text Label 4800 1450 2    50   ~ 0
 STM32_FAN_PWM_OUTPUT
-Text Label 4850 3000 0    50   ~ 0
+Text Label 3150 1900 0    50   ~ 0
 PA6
+Text Label 3150 1450 0    50   ~ 0
+PB6
 Wire Wire Line
-	6500 2550 5300 2550
+	3150 1450 4800 1450
+Text Label 3150 1600 0    50   ~ 0
+PB0
+Text Label 3150 1750 0    50   ~ 0
+PB1
+Wire Wire Line
+	3150 1750 4800 1750
+Wire Wire Line
+	3150 1600 4800 1600
 $EndSCHEMATC
