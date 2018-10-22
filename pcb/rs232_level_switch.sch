@@ -145,22 +145,14 @@ F 3 "" H 5700 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5700 4550 5700 4700
-Wire Wire Line
-	4500 3900 5100 3900
-Wire Wire Line
-	4500 4100 5100 4100
-Text HLabel 4500 3900 0    50   Input ~ 0
+Text HLabel 3350 3900 0    50   Input ~ 0
 TTL-TX1
-Text HLabel 4500 4000 0    50   Input ~ 0
+Text HLabel 3350 4000 0    50   Input ~ 0
 TTL-TX2
-Text HLabel 4500 4100 0    50   Input ~ 0
+Text HLabel 3350 4100 0    50   Input ~ 0
 TTL-RX1
-Text HLabel 4500 4200 0    50   Input ~ 0
+Text HLabel 3350 4200 0    50   Input ~ 0
 TTL-RX2
-Wire Wire Line
-	4500 4000 5100 4000
-Wire Wire Line
-	5100 4200 4500 4200
 Wire Wire Line
 	6300 3900 6800 3900
 Wire Wire Line
@@ -188,4 +180,92 @@ F 3 "" H 5700 3000 50  0001 C CNN
 	1    5700 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L taobao-r:R511 R14
+U 1 1 5BD94646
+P 3700 3250
+F 0 "R14" H 3642 3296 50  0000 R CNN
+F 1 "R102" H 3642 3205 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 3250 50  0001 C CNN
+F 3 "~" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:LED_GREEN D4
+U 1 1 5BD94746
+P 3700 3600
+F 0 "D4" V 3746 3697 50  0000 L CNN
+F 1 "LED_GREEN" V 3655 3697 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3700 3600 50  0001 C CNN
+F 3 "" V 3700 3600 50  0001 C CNN
+	1    3700 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 3900 3700 3900
+Wire Wire Line
+	5100 4000 3350 4000
+Wire Wire Line
+	5100 4100 3900 4100
+Wire Wire Line
+	5100 4200 3350 4200
+$Comp
+L taobao-r:R511 R15
+U 1 1 5BD95DFC
+P 3900 3250
+F 0 "R15" H 3959 3296 50  0000 L CNN
+F 1 "R102" H 3959 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 3250 50  0001 C CNN
+F 3 "~" H 3900 3250 50  0001 C CNN
+	1    3900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:LED_GREEN D5
+U 1 1 5BD95E02
+P 3900 3600
+F 0 "D5" V 3946 3532 50  0000 R CNN
+F 1 "LED_GREEN" V 3855 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3900 3600 50  0001 C CNN
+F 3 "" V 3900 3600 50  0001 C CNN
+	1    3900 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR0108
+U 1 1 5BD961A3
+P 3800 3050
+F 0 "#PWR0108" H 3800 2900 50  0001 C CNN
+F 1 "VDD" H 3817 3223 50  0000 C CNN
+F 2 "" H 3800 3050 50  0001 C CNN
+F 3 "" H 3800 3050 50  0001 C CNN
+	1    3800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3050 3800 3100
+Wire Wire Line
+	3800 3100 3700 3100
+Wire Wire Line
+	3700 3100 3700 3150
+Wire Wire Line
+	3800 3100 3900 3100
+Wire Wire Line
+	3900 3100 3900 3150
+Connection ~ 3800 3100
+Wire Wire Line
+	3700 3350 3700 3500
+Wire Wire Line
+	3900 3350 3900 3500
+Wire Wire Line
+	3700 3700 3700 3900
+Connection ~ 3700 3900
+Wire Wire Line
+	3700 3900 3350 3900
+Wire Wire Line
+	3900 3700 3900 4100
+Connection ~ 3900 4100
+Wire Wire Line
+	3900 4100 3350 4100
 $EndSCHEMATC
