@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -119,8 +119,8 @@ L Relay_SolidState:S102S01 U2
 U 1 1 5BCB53B0
 P 6150 2400
 F 0 "U2" H 6150 2083 50  0000 C CNN
-F 1 "S102S01" H 6150 2174 50  0000 C CNN
-F 2 "Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight" H 5950 2200 50  0001 L CIN
+F 1 "OMRON-G3MB-202P" H 6150 2174 50  0000 C CNN
+F 2 "footprint-lib:OMRON-G3MB-202P" H 5950 2200 50  0001 L CIN
 F 3 "http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s01_e.pdf" H 6115 2400 50  0001 L CNN
 	1    6150 2400
 	1    0    0    1   
@@ -170,6 +170,8 @@ $Comp
 L taobao-transistor:2N3904(1AM) Q1
 U 1 1 5BCBBF31
 P 5100 3000
+AR Path="/5BCBBF31" Ref="Q1"  Part="1" 
+AR Path="/5BCB4A39/5BCBBF31" Ref="Q1"  Part="1" 
 F 0 "Q1" H 5300 3050 50  0000 L CNN
 F 1 "2N3904(1AM)" H 5300 3000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5300 2925 50  0001 L CIN

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -88,6 +88,8 @@ $Comp
 L taobao-transistor:SS9013_J3 Q3
 U 1 1 5BCBD15E
 P 6150 3100
+AR Path="/5BCBD15E" Ref="Q3"  Part="1" 
+AR Path="/5BCB679F/5BCBD15E" Ref="Q3"  Part="1" 
 F 0 "Q3" H 6350 3150 50  0000 L CNN
 F 1 "SS9013_J3" H 6350 3100 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6350 3025 50  0001 L CIN

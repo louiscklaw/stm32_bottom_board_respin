@@ -1,4 +1,92 @@
-Cmp-Mod V01 Created by PcbNew   date = Sun Oct 21 02:01:00 2018
+Cmp-Mod V01 Created by PcbNew   date = Mon 22 Oct 2018 05:43:41 PM HKT
+
+BeginCmp
+TimeStamp = 5BD8B716
+Path = /5BCB4A39/5BCB53B0
+Reference = U2;
+ValeurCmp = S102S01;
+IdModule  = footprint-lib:OMRON-G3MB-202P;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE3692A
+Path = /5BCC1C7F
+Reference = J1;
+ValeurCmp = Conn_01x02;
+IdModule  = w_conn_mkds:mkds_1,5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE34803
+Path = /5BCB679F/5BCBD15E
+Reference = Q3;
+ValeurCmp = SS9013_J3;
+IdModule  = Package_TO_SOT_SMD:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE31235
+Path = /5BCB6FA2/5BCF8FA5
+Reference = BOOT0;
+ValeurCmp = JUMPER;
+IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE2E1FE
+Path = /5BCB4A39/5BCBBF31
+Reference = Q1;
+ValeurCmp = 2N3904(1AM);
+IdModule  = Package_TO_SOT_SMD:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE2E1EA
+Path = /5BCBA20B/5BCBC4D0
+Reference = Q2;
+ValeurCmp = SS9013_J3;
+IdModule  = Package_TO_SOT_SMD:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCE87EF
+Path = /5BCB6490
+Reference = J5;
+ValeurCmp = PURFUME;
+IdModule  = w_conn_mkds:mkds_1,5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCE87DD
+Path = /5BCB416C
+Reference = J2;
+ValeurCmp = WS2812;
+IdModule  = w_conn_mkds:mkds_1,5-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCE774A
+Path = /5BCB931B
+Reference = J4;
+ValeurCmp = SSR;
+IdModule  = w_conn_mkds:mkds_1,5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCDA01B
+Path = /5BCBC3BF
+Reference = J3;
+ValeurCmp = FAN_PWM;
+IdModule  = w_conn_mkds:mkds_1,5-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD8B7EF
+Path = /5BCB6FA2/5BCBF11C
+Reference = Y2;
+ValeurCmp = O32.768K;
+IdModule  = Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering;
+EndCmp
 
 BeginCmp
 TimeStamp = 5BD8B805
@@ -17,7 +105,7 @@ IdModule  = Button_Switch_SMD:SW_SPST_CK_RS282G05A3;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BD8BA22
+TimeStamp = 5BE3AA14
 Path = /5BCB6CCE
 Reference = C1;
 ValeurCmp = CP1000uf,10V;
@@ -33,7 +121,7 @@ IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BD8B9E9
+TimeStamp = 5BE2EE17
 Path = /5BCB6FA2/5BCBC4D6
 Reference = C3;
 ValeurCmp = C104;
@@ -57,7 +145,7 @@ IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BD8B9B6
+TimeStamp = 5BE35807
 Path = /5BCB6FA2/5BCBE306
 Reference = C6;
 ValeurCmp = C104;
@@ -129,38 +217,6 @@ IdModule  = Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSol
 EndCmp
 
 BeginCmp
-TimeStamp = 5BD8B919
-Path = /5BCB6490
-Reference = J5;
-ValeurCmp = Conn_01x02;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B901
-Path = /5BCB931B
-Reference = J4;
-ValeurCmp = Conn_01x02;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B8E9
-Path = /5BCB416C
-Reference = J2;
-ValeurCmp = Conn_01x03;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B8D0
-Path = /5BCBC3BF
-Reference = J3;
-ValeurCmp = Conn_01x04;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Horizontal;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BD8B88B
 Path = /5BCB6FA2/5BDC51B3
 Reference = J7;
@@ -185,22 +241,6 @@ IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x20_P1.27mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BD8B81B
-Path = /5BCC1C7F
-Reference = J1;
-ValeurCmp = Conn_01x02;
-IdModule  = Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B7EF
-Path = /5BCB6FA2/5BCBF11C
-Reference = Y2;
-ValeurCmp = O32.768K;
-IdModule  = Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BD8B7DC
 Path = /5BCB6FA2/5BE05EFF
 Reference = JP1;
@@ -210,17 +250,9 @@ EndCmp
 
 BeginCmp
 TimeStamp = 5BD8B7CE
-Path = /5BCB6FA2/5BCF8FA5
-Reference = BOOT1;
-ValeurCmp = SolderJumper_3_Open;
-IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B7BA
 Path = /5BCB6FA2/5BCF9021
-Reference = BOOT2;
-ValeurCmp = SolderJumper_3_Open;
+Reference = BOOT1;
+ValeurCmp = JUMPER;
 IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm;
 EndCmp
 
@@ -257,51 +289,11 @@ IdModule  = Package_QFP:LQFP-48_7x7mm_P0.5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BD8B716
-Path = /5BCB4A39/5BCB53B0
-Reference = U2;
-ValeurCmp = S102S01;
-IdModule  = Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BD8B6FC
 Path = /5BCB6FA2/5BD2B227
 Reference = U4;
 ValeurCmp = AMS1117-3.3;
 IdModule  = Package_TO_SOT_SMD:SOT-223-3_TabPin2;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B6E6
-Path = /5BCB4060/5BCB46C2
-Reference = U1;
-ValeurCmp = 74AHCT1G125;
-IdModule  = Package_TO_SOT_SMD:SOT-23-5_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B6D1
-Path = /5BCB679F/5BCB856E
-Reference = Q2;
-ValeurCmp = SS9013_J3;
-IdModule  = Package_TO_SOT_SMD:TSOT-23_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B6BC
-Path = /5BCB4A39/5BCB4AD7
-Reference = Q1;
-ValeurCmp = 2N3904;
-IdModule  = Package_TO_SOT_THT:TO-92_Inline;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8B6AA
-Path = /5BCBA20B/5BCBA2C4
-Reference = Q3;
-ValeurCmp = SS9013_J3;
-IdModule  = Package_TO_SOT_THT:TO-92_Inline;
 EndCmp
 
 BeginCmp
@@ -385,7 +377,7 @@ IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BD8B5EE
+TimeStamp = 5BE3AB1E
 Path = /5BCBA20B/5BCBA355
 Reference = R7;
 ValeurCmp = R471;

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L stm32_bottom_board_respin-rescue:74AHCT1G125-taobao-components U1
+L taobao-components:74AHCT1G125 U1
 U 1 1 5BCB46C2
 P 5400 3200
 AR Path="/5BCB46C2" Ref="U1"  Part="1" 

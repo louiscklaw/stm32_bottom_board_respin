@@ -92,6 +92,8 @@ $Comp
 L taobao-transistor:SS9013_J3 Q2
 U 1 1 5BCBC4D0
 P 2750 2200
+AR Path="/5BCBC4D0" Ref="Q2"  Part="1" 
+AR Path="/5BCBA20B/5BCBC4D0" Ref="Q2"  Part="1" 
 F 0 "Q2" H 2950 2250 50  0000 L CNN
 F 1 "SS9013_J3" H 2950 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 2125 50  0001 L CIN
