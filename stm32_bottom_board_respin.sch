@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -317,4 +317,53 @@ F 3 "" H 6700 1050 50  0000 C CNN
 	1    6700 1050
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 11650 2250 1500 850 
+U 5BCE47B4
+F0 "rs232_level_switch" 50
+F1 "rs232_level_switch.sch" 50
+F2 "TTL-TX1" I L 11650 2550 50 
+F3 "TTL-TX2" I L 11650 2650 50 
+F4 "TTL-RX1" I L 11650 2750 50 
+F5 "TTL-RX2" I L 11650 2850 50 
+F6 "RS232-TX1" I R 13150 2550 50 
+F7 "RS232-TX2" I R 13150 2650 50 
+F8 "RS232-RX1" I R 13150 2750 50 
+F9 "RS232-RX2" I R 13150 2850 50 
+$EndSheet
+Text Label 13900 2550 2    50   ~ 0
+IONAIR_TX
+Wire Wire Line
+	13900 2550 13150 2550
+Wire Wire Line
+	13900 2750 13150 2750
+Text Label 13900 2750 2    50   ~ 0
+IONAIR_RX
+Text Label 11000 2550 0    50   ~ 0
+IONAIR-TTL-TX
+Text Label 11000 2750 0    50   ~ 0
+IONAIR-TTL-RX
+Wire Wire Line
+	11000 2550 11650 2550
+Wire Wire Line
+	11000 2750 11650 2750
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5BCF033A
+P 9600 2550
+F 0 "J?" H 9680 2542 50  0000 L CNN
+F 1 "SSR" H 9680 2451 50  0000 L CNN
+F 2 "w_conn_mkds:mkds_1,5-2" H 9600 2550 50  0001 C CNN
+F 3 "~" H 9600 2550 50  0001 C CNN
+	1    9600 2550
+	1    0    0    -1  
+$EndComp
+Text Label 8650 2550 0    50   ~ 0
+IONAIR_TX
+Wire Wire Line
+	8650 2550 9400 2550
+Wire Wire Line
+	8650 2650 9400 2650
+Text Label 8650 2650 0    50   ~ 0
+IONAIR_RX
 $EndSCHEMATC

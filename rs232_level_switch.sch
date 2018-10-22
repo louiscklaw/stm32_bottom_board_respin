@@ -1,0 +1,191 @@
+EESchema Schematic File Version 4
+LIBS:stm32_bottom_board_respin-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-c:C104 C15
+U 1 1 5BCE722E
+P 4900 3150
+F 0 "C15" H 4992 3196 50  0000 L CNN
+F 1 "C104" H 4992 3105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4900 3150 50  0001 C CNN
+F 3 "~" H 4900 3150 50  0001 C CNN
+	1    4900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3000 4900 3000
+Wire Wire Line
+	4900 3000 4900 3050
+Wire Wire Line
+	4900 3250 4900 3300
+Wire Wire Line
+	4900 3300 5100 3300
+$Comp
+L taobao-c:C104 C16
+U 1 1 5BCE7274
+P 4900 3600
+F 0 "C16" H 4992 3646 50  0000 L CNN
+F 1 "C104" H 4992 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4900 3600 50  0001 C CNN
+F 3 "~" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3450 4900 3450
+Wire Wire Line
+	4900 3450 4900 3500
+Wire Wire Line
+	5100 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 3700
+$Comp
+L taobao-c:C104 C17
+U 1 1 5BCE86C7
+P 6050 2350
+F 0 "C17" V 5821 2350 50  0000 C CNN
+F 1 "C104" V 5912 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 2350 50  0001 C CNN
+F 3 "~" H 6050 2350 50  0001 C CNN
+	1    6050 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR0102
+U 1 1 5BCE8CF9
+P 5700 1850
+F 0 "#PWR0102" H 5700 1700 50  0001 C CNN
+F 1 "VDD" H 5717 2023 50  0000 C CNN
+F 2 "" H 5700 1850 50  0001 C CNN
+F 3 "" H 5700 1850 50  0001 C CNN
+	1    5700 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1850 5700 2350
+Wire Wire Line
+	5950 2350 5700 2350
+Connection ~ 5700 2350
+Wire Wire Line
+	5700 2350 5700 2700
+$Comp
+L taobao-c:C104 C18
+U 1 1 5BCE8DB1
+P 6700 3050
+F 0 "C18" V 6471 3050 50  0000 C CNN
+F 1 "C104" V 6562 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6700 3050 50  0001 C CNN
+F 3 "~" H 6700 3050 50  0001 C CNN
+	1    6700 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-c:C104 C19
+U 1 1 5BCE8DF5
+P 6700 3450
+F 0 "C19" V 6471 3450 50  0000 C CNN
+F 1 "C104" V 6562 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6700 3450 50  0001 C CNN
+F 3 "~" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 3050 6600 3050
+Wire Wire Line
+	6300 3450 6600 3450
+Wire Wire Line
+	6150 2350 6950 2350
+Wire Wire Line
+	6950 2350 6950 3050
+Wire Wire Line
+	6950 3050 6800 3050
+Wire Wire Line
+	6950 3050 6950 3450
+Wire Wire Line
+	6950 3450 6800 3450
+Connection ~ 6950 3050
+$Comp
+L power:GND #PWR0103
+U 1 1 5BCE9117
+P 6950 3600
+F 0 "#PWR0103" H 6950 3350 50  0001 C CNN
+F 1 "GND" H 6955 3427 50  0000 C CNN
+F 2 "" H 6950 3600 50  0001 C CNN
+F 3 "" H 6950 3600 50  0001 C CNN
+	1    6950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3600 6950 3450
+Connection ~ 6950 3450
+$Comp
+L power:GND #PWR0104
+U 1 1 5BCE9791
+P 5700 4700
+F 0 "#PWR0104" H 5700 4450 50  0001 C CNN
+F 1 "GND" H 5705 4527 50  0000 C CNN
+F 2 "" H 5700 4700 50  0001 C CNN
+F 3 "" H 5700 4700 50  0001 C CNN
+	1    5700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4550 5700 4700
+Wire Wire Line
+	4500 3900 5100 3900
+Wire Wire Line
+	4500 4100 5100 4100
+Text HLabel 4500 3900 0    50   Input ~ 0
+TTL-TX1
+Text HLabel 4500 4000 0    50   Input ~ 0
+TTL-TX2
+Text HLabel 4500 4100 0    50   Input ~ 0
+TTL-RX1
+Text HLabel 4500 4200 0    50   Input ~ 0
+TTL-RX2
+Wire Wire Line
+	4500 4000 5100 4000
+Wire Wire Line
+	5100 4200 4500 4200
+Wire Wire Line
+	6300 3900 6800 3900
+Wire Wire Line
+	6300 4000 6800 4000
+Wire Wire Line
+	6300 4100 6800 4100
+Wire Wire Line
+	6300 4200 6800 4200
+Text HLabel 6800 3900 2    50   Input ~ 0
+RS232-TX1
+Text HLabel 6800 4000 2    50   Input ~ 0
+RS232-TX2
+Text HLabel 6800 4100 2    50   Input ~ 0
+RS232-RX1
+Text HLabel 6800 4200 2    50   Input ~ 0
+RS232-RX2
+$Comp
+L taobao-components:SP3232EEN U5
+U 1 1 5BCEE512
+P 5700 3500
+F 0 "U5" H 5700 4478 50  0000 C CNN
+F 1 "SP3232EEN" H 5700 4387 50  0000 C CNN
+F 2 "footprint-lib:SOP-16_4.4x10.4mm_Pitch1.27mm" H 5700 3000 50  0001 C CNN
+F 3 "" H 5700 3000 50  0001 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
