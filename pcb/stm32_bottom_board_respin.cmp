@@ -1,4 +1,12 @@
-Cmp-Mod V01 Created by PcbNew   date = Thu 25 Oct 2018 10:37:38 PM HKT
+Cmp-Mod V01 Created by PcbNew   date = Sat 27 Oct 2018 04:17:54 PM HKT
+
+BeginCmp
+TimeStamp = 5BD8BA3D
+Path = /5BCB6FA2/5BCDA0C8
+Reference = SW1;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_SMD:SW_SPST_PTS645;
+EndCmp
 
 BeginCmp
 TimeStamp = 5BDEFDCF
@@ -246,14 +254,6 @@ Path = /5BCB6FA2/5BCC6C8D
 Reference = Y1;
 ValeurCmp = O8M;
 IdModule  = w_crystal:hc-49_smd;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BD8BA3D
-Path = /5BCB6FA2/5BCDA0C8
-Reference = SW1;
-ValeurCmp = SW_Push;
-IdModule  = Button_Switch_SMD:SW_SPST_CK_RS282G05A3;
 EndCmp
 
 BeginCmp

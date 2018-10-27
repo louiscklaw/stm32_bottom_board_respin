@@ -322,17 +322,6 @@ $EndComp
 Wire Wire Line
 	9150 6900 9150 7000
 $Comp
-L taobao-osc:O32.768K Y2
-U 1 1 5BCBF11C
-P 14700 7500
-F 0 "Y2" V 14654 7588 50  0000 L CNN
-F 1 "O32.768K" V 14745 7588 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering" H 14700 7500 50  0001 C CNN
-F 3 "~" H 14700 7500 50  0001 C CNN
-	1    14700 7500
-	0    1    1    0   
-$EndComp
-$Comp
 L taobao-c:C20pf C13
 U 1 1 5BCBF1ED
 P 14500 7300
@@ -555,7 +544,7 @@ U 1 1 5BCDA0C8
 P 14200 3100
 F 0 "SW1" V 14246 3248 50  0000 L CNN
 F 1 "SW_Push" V 14155 3248 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 14200 3300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 14200 3300 50  0001 C CNN
 F 3 "" H 14200 3300 50  0001 C CNN
 	1    14200 3100
 	0    -1   -1   0   
@@ -1355,5 +1344,16 @@ F 2 "" H 14200 4750 50  0000 C CNN
 F 3 "" H 14200 4750 50  0000 C CNN
 	1    14200 4750
 	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-osc:O_EPSON_32.768K Y2
+U 1 1 5BD58864
+P 14700 7500
+F 0 "Y2" V 14746 7588 50  0000 L CNN
+F 1 "O_EPSON_32.768K" V 14655 7588 50  0000 L CNN
+F 2 "footprint-lib:MC-306" H 14700 7500 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306&lang=en" H 14700 7500 50  0001 C CNN
+	1    14700 7500
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC
