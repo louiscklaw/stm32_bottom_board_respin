@@ -1203,9 +1203,9 @@ F 3 "" V 14850 5000 50  0001 C CNN
 	1    14850 5000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8100 1650 1    50   Input ~ 0
+Text GLabel 8400 1650 1    50   Input ~ 0
 I2C_SDA
-Text GLabel 8200 1650 1    50   Input ~ 0
+Text GLabel 8500 1650 1    50   Input ~ 0
 I2C_SCL
 Text GLabel 8600 1650 1    50   Input ~ 0
 SPI1_MOSI
@@ -1371,10 +1371,10 @@ Connection ~ 11050 5000
 Wire Wire Line
 	11050 5000 11050 5150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 5BD949F8
 P 11050 5550
-F 0 "#PWR?" H 11050 5300 50  0001 C CNN
+F 0 "#PWR0115" H 11050 5300 50  0001 C CNN
 F 1 "GND" H 11055 5377 50  0000 C CNN
 F 2 "" H 11050 5550 50  0001 C CNN
 F 3 "" H 11050 5550 50  0001 C CNN
@@ -1383,4 +1383,8 @@ F 3 "" H 11050 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11050 5350 11050 5550
+Text GLabel 10000 3150 2    50   Input ~ 0
+PMS5003S_RX
+Text GLabel 10000 3250 2    50   Input ~ 0
+PMS5003S_TX
 $EndSCHEMATC
