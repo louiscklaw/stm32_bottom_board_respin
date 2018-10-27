@@ -696,10 +696,6 @@ F 3 "~" H 12900 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11400 4800 11400 5000
-Wire Wire Line
-	11400 5000 11550 5000
-Wire Wire Line
 	11550 5000 11550 5150
 Connection ~ 11550 5000
 Wire Wire Line
@@ -1111,12 +1107,12 @@ $EndComp
 $Comp
 L customized_power:+5V #PWR033
 U 1 1 5BCE8D55
-P 11400 4800
-F 0 "#PWR033" H 11400 4650 50  0001 C CNN
-F 1 "+5V" H 11450 5000 50  0000 C CNN
-F 2 "" H 11400 4800 50  0001 C CNN
-F 3 "" H 11400 4800 50  0001 C CNN
-	1    11400 4800
+P 11050 4800
+F 0 "#PWR033" H 11050 4650 50  0001 C CNN
+F 1 "+5V" H 11100 5000 50  0000 C CNN
+F 2 "" H 11050 4800 50  0001 C CNN
+F 3 "" H 11050 4800 50  0001 C CNN
+	1    11050 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1356,4 +1352,35 @@ F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306&lang=en" H 1
 	1    14700 7500
 	0    1    -1   0   
 $EndComp
+$Comp
+L taobao-cp:CP220uf,50V C20
+U 1 1 5BD81A30
+P 11050 5250
+F 0 "C20" H 11138 5296 50  0000 L CNN
+F 1 "CP220uf,50V" H 11138 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10.5" H 11050 5250 50  0001 C CNN
+F 3 "~" H 11050 5250 50  0001 C CNN
+	1    11050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 4800 11050 5000
+Wire Wire Line
+	11050 5000 11550 5000
+Connection ~ 11050 5000
+Wire Wire Line
+	11050 5000 11050 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5BD949F8
+P 11050 5550
+F 0 "#PWR?" H 11050 5300 50  0001 C CNN
+F 1 "GND" H 11055 5377 50  0000 C CNN
+F 2 "" H 11050 5550 50  0001 C CNN
+F 3 "" H 11050 5550 50  0001 C CNN
+	1    11050 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 5350 11050 5550
 $EndSCHEMATC
