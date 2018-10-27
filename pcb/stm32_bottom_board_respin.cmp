@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = Wed 24 Oct 2018 11:32:53 PM HKT
+Cmp-Mod V01 Created by PcbNew   date = Thu 25 Oct 2018 10:37:38 PM HKT
 
 BeginCmp
 TimeStamp = 5BDEFDCF
@@ -44,7 +44,7 @@ BeginCmp
 TimeStamp = 5BCE2653
 Path = /5BCF033A
 Reference = J9;
-ValeurCmp = SSR;
+ValeurCmp = IONAIR_COMM;
 IdModule  = w_conn_mkds:mkds_1,5-3;
 EndCmp
 
