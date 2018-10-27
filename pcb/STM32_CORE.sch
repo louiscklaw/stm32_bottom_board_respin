@@ -1217,7 +1217,7 @@ Text GLabel 8700 1650 1    50   Input ~ 0
 SPI1_MISO
 Text GLabel 8800 1650 1    50   Input ~ 0
 SPI1_SCK
-Text GLabel 10000 3650 2    50   Input ~ 0
+Text GLabel 10000 3350 2    50   Input ~ 0
 STM32_FAN_PWM_OUTPUT
 Text GLabel 8400 4750 3    50   Input ~ 0
 STM32_SSR_OUTPUT
