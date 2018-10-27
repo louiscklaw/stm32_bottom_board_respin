@@ -114,11 +114,11 @@ PB11
 Wire Wire Line
 	8800 4750 8800 4200
 Text Label 8900 4750 1    50   ~ 0
-GND
+VSS_1
 Wire Wire Line
 	8900 4750 8900 4200
 Text Label 9000 4750 1    50   ~ 0
-VCC3V3
+VDD_1
 Wire Wire Line
 	9000 4750 9000 4200
 Text Label 10000 3750 2    50   ~ 0
@@ -162,11 +162,11 @@ SWIO
 Wire Wire Line
 	10000 2850 9450 2850
 Text Label 10000 2750 2    50   ~ 0
-GND
+VSS_2
 Wire Wire Line
 	10000 2750 9450 2750
 Text Label 10000 2650 2    50   ~ 0
-VCC3V3
+VDD_2
 Wire Wire Line
 	10000 2650 9450 2650
 Text Label 9000 1650 3    50   ~ 0
@@ -852,10 +852,10 @@ F 3 "~" H 4950 3600 50  0001 C CNN
 	1    4950 3600
 	1    0    0    1   
 $EndComp
-Text Label 5600 1700 1    50   ~ 0
+Text Label 6550 1250 2    50   ~ 0
 VCC3V3
 Wire Wire Line
-	5600 1300 5600 1700
+	6100 1100 6100 1250
 $Comp
 L Device:Jumper_NO_Small JP1
 U 1 1 5BE05EFF
@@ -1030,12 +1030,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR024
 U 1 1 5BCAD5BF
-P 5600 1300
-F 0 "#PWR024" H 5600 1150 50  0001 C CNN
-F 1 "+3V3" H 5650 1500 50  0000 C CNN
-F 2 "" H 5600 1300 50  0001 C CNN
-F 3 "" H 5600 1300 50  0001 C CNN
-	1    5600 1300
+P 6100 1100
+F 0 "#PWR024" H 6100 950 50  0001 C CNN
+F 1 "+3V3" H 6150 1300 50  0000 C CNN
+F 2 "" H 6100 1100 50  0001 C CNN
+F 3 "" H 6100 1100 50  0001 C CNN
+	1    6100 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1387,4 +1387,51 @@ Text GLabel 10000 3150 2    50   Input ~ 0
 PMS5003S_RX
 Text GLabel 10000 3250 2    50   Input ~ 0
 PMS5003S_TX
+Text Label 6550 1400 2    50   ~ 0
+VBAT
+Text Label 6550 1500 2    50   ~ 0
+VDD_2
+Text Label 6550 1600 2    50   ~ 0
+VDD_1
+Wire Wire Line
+	6550 1250 6100 1250
+Connection ~ 6100 1250
+Wire Wire Line
+	6100 1400 6550 1400
+Wire Wire Line
+	6100 1250 6100 1400
+Wire Wire Line
+	6550 1600 6100 1600
+Wire Wire Line
+	6100 1600 6100 1500
+Connection ~ 6100 1400
+Wire Wire Line
+	6550 1500 6100 1500
+Connection ~ 6100 1500
+Wire Wire Line
+	6100 1500 6100 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5BDB5D1B
+P 6100 2300
+F 0 "#PWR?" H 6100 2050 50  0001 C CNN
+F 1 "GND" H 6105 2127 50  0000 C CNN
+F 2 "" H 6100 2300 50  0001 C CNN
+F 3 "" H 6100 2300 50  0001 C CNN
+	1    6100 2300
+	1    0    0    -1  
+$EndComp
+Text Label 6550 2000 2    50   ~ 0
+VSS_2
+Text Label 6550 2100 2    50   ~ 0
+VSS_1
+Wire Wire Line
+	6100 2300 6100 2100
+Wire Wire Line
+	6100 2000 6550 2000
+Wire Wire Line
+	6550 2100 6100 2100
+Connection ~ 6100 2100
+Wire Wire Line
+	6100 2100 6100 2000
 $EndSCHEMATC
