@@ -1384,9 +1384,9 @@ $EndComp
 Wire Wire Line
 	11050 5350 11050 5550
 Text GLabel 10000 3150 2    50   Input ~ 0
-STM32_PMS5003S_RX
+STM32_PMS7003S_RXD
 Text GLabel 10000 3250 2    50   Input ~ 0
-STM32_PMS5003S_TX
+STM32_PMS7003S_TXD
 Text Label 6550 1400 2    50   ~ 0
 VBAT
 Text Label 6550 1500 2    50   ~ 0
@@ -1434,4 +1434,12 @@ Wire Wire Line
 Connection ~ 6100 2100
 Wire Wire Line
 	6100 2100 6100 2000
+Text GLabel 10000 2950 2    50   Input ~ 0
+STM32_PMS7003S_RESET
+Text GLabel 10000 3050 2    50   Input ~ 0
+STM32_PMS7003S_SET
+Text GLabel 8700 4750 3    50   Input ~ 0
+B2B_UART_TX
+Text GLabel 8800 4750 3    50   Input ~ 0
+B2B_UART_RX
 $EndSCHEMATC
