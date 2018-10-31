@@ -330,9 +330,9 @@ Wire Wire Line
 Wire Wire Line
 	8650 2550 9400 2550
 Wire Wire Line
-	4800 3300 5550 3300
+	3500 3300 3950 3300
 Wire Wire Line
-	4800 3200 5550 3200
+	3500 3200 3750 3200
 Wire Wire Line
 	4800 3100 5550 3100
 Wire Wire Line
@@ -358,9 +358,9 @@ Wire Wire Line
 	5150 2650 5150 2700
 Wire Wire Line
 	5150 2700 5550 2700
-Text GLabel 4800 3300 0    50   Input ~ 0
+Text GLabel 3500 3300 0    50   Input ~ 0
 I2C_SDA
-Text GLabel 4800 3200 0    50   Input ~ 0
+Text GLabel 3500 3200 0    50   Input ~ 0
 I2C_SCL
 Text GLabel 4800 3100 0    50   Input ~ 0
 SPI1_MOSI
@@ -476,4 +476,56 @@ Wire Wire Line
 	4800 3400 5550 3400
 Wire Wire Line
 	4800 3500 5550 3500
+$Comp
+L tinkerforge:3V3 #PWR?
+U 1 1 5BDD6C93
+P 3750 2650
+F 0 "#PWR?" H 3750 2500 50  0001 C CNN
+F 1 "3V3" H 3765 2823 50  0000 C CNN
+F 2 "" H 3750 2650 50  0000 C CNN
+F 3 "" H 3750 2650 50  0000 C CNN
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R472,0603 R?
+U 1 1 5BDDACA3
+P 3750 2850
+F 0 "R?" H 3809 2896 50  0000 L CNN
+F 1 "R472,0603" H 3809 2805 50  0000 L CNN
+F 2 "" H 3750 2850 50  0001 C CNN
+F 3 "~" H 3750 2850 50  0001 C CNN
+	1    3750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R472,0603 R?
+U 1 1 5BDDACCF
+P 3950 2850
+F 0 "R?" H 4009 2896 50  0000 L CNN
+F 1 "R472,0603" H 4009 2805 50  0000 L CNN
+F 2 "" H 3950 2850 50  0001 C CNN
+F 3 "~" H 3950 2850 50  0001 C CNN
+	1    3950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2650 3750 2700
+Wire Wire Line
+	3750 2700 3950 2700
+Wire Wire Line
+	3950 2700 3950 2750
+Connection ~ 3750 2700
+Wire Wire Line
+	3750 2700 3750 2750
+Wire Wire Line
+	3750 2950 3750 3200
+Connection ~ 3750 3200
+Wire Wire Line
+	3750 3200 5550 3200
+Wire Wire Line
+	3950 2950 3950 3300
+Connection ~ 3950 3300
+Wire Wire Line
+	3950 3300 5550 3300
 $EndSCHEMATC
