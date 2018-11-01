@@ -143,26 +143,13 @@ F0 "FAN_PWM_DRIVER" 50
 F1 "FAN_PWM_DRIVER.sch" 50
 F2 "STM32_FAN_PWM" I L 11650 3600 50 
 F3 "FAN_PWM_OUTPUT" I R 13150 3750 50 
-F4 "FAN_PWM_GND" I R 13150 3850 50 
-F5 "STM32_FAN_RPM" I L 11650 3700 50 
-F6 "FAN_RPM" I R 13150 3950 50 
+F4 "STM32_FAN_RPM" I L 11650 3700 50 
+F5 "FAN_RPM" I R 13150 3950 50 
 $EndSheet
 Text Label 14200 3750 2    50   ~ 0
 FAN_PWM_OUTPUT
-Text Label 14200 3850 2    50   ~ 0
-FAN_PWM_GND
-Wire Wire Line
-	13150 3850 14200 3850
 Wire Wire Line
 	13150 3750 14200 3750
-Text Label 8550 3800 0    50   ~ 0
-FAN_PWM_OUTPUT
-Text Label 8550 3900 0    50   ~ 0
-FAN_PWM_GND
-Wire Wire Line
-	9350 3900 8550 3900
-Wire Wire Line
-	9350 3800 8550 3800
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5BCBC3BF
@@ -244,20 +231,20 @@ Wire Wire Line
 	6850 1650 6850 1450
 Text Notes 6000 1850 0    50   ~ 0
 the power of driver circuit is by VDD instead of +5V\nto provision the power control of the driver circuit
-Text Label 8550 3700 0    50   ~ 0
+Text Label 8550 3800 0    50   ~ 0
 FAN_48V
-Text Label 8550 4000 0    50   ~ 0
+Text Label 8550 3900 0    50   ~ 0
 FAN_RPM
 Wire Wire Line
-	8550 4000 9350 4000
+	8550 3900 9350 3900
 Wire Wire Line
-	8550 3700 9350 3700
+	8550 3800 9350 3800
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5BCC1C7F
 P 7800 3700
 F 0 "J1" H 7880 3692 50  0000 L CNN
-F 1 "Conn_01x02" H 7880 3601 50  0000 L CNN
+F 1 "48V source" H 7880 3601 50  0000 L CNN
 F 2 "w_conn_mkds:mkds_1,5-2" H 7800 3700 50  0001 C CNN
 F 3 "~" H 7800 3700 50  0001 C CNN
 	1    7800 3700
@@ -634,4 +621,12 @@ Text GLabel 11450 3700 0    50   Input ~ 0
 STM32_FAN_RPM
 Wire Wire Line
 	11450 3700 11650 3700
+Text Label 8550 3700 0    50   ~ 0
+FAN_48V_GND
+Wire Wire Line
+	8550 3700 9350 3700
+Wire Wire Line
+	9350 4000 8550 4000
+Text Label 8550 4000 0    50   ~ 0
+FAN_PWM_OUTPUT
 $EndSCHEMATC

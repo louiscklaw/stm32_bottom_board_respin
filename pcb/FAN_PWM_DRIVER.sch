@@ -57,8 +57,6 @@ F 3 "" H 2850 2700 50  0001 C CNN
 	1    2850 2700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 2400 2850 2550
 Text Label 3650 1850 2    50   ~ 0
 FAN_PWM_OUTPUT
 Wire Wire Line
@@ -66,17 +64,8 @@ Wire Wire Line
 Connection ~ 2850 1850
 Wire Wire Line
 	2850 1850 2850 2000
-Text Label 3750 2550 2    50   ~ 0
-FAN_PWM_OUTPUT_GND
-Wire Wire Line
-	3750 2550 2850 2550
-Connection ~ 2850 2550
-Wire Wire Line
-	2850 2550 2850 2700
 Text HLabel 3750 1850 2    50   Input ~ 0
 FAN_PWM_OUTPUT
-Text HLabel 3750 2550 2    50   Input ~ 0
-FAN_PWM_GND
 $Comp
 L power:VDD #PWR015
 U 1 1 5BCBA5C6
@@ -149,4 +138,6 @@ Text HLabel 3750 3900 2    50   Input ~ 0
 FAN_RPM
 Wire Wire Line
 	2650 3900 3750 3900
+Wire Wire Line
+	2850 2400 2850 2700
 $EndSCHEMATC
