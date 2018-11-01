@@ -1739,27 +1739,20 @@ F 1 "R103,0603" H 3941 4245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4000 4200 50  0001 C CNN
 F 3 "~" H 4000 4200 50  0001 C CNN
 	1    4000 4200
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 4300 4000 4400
-Wire Wire Line
-	3450 3950 4000 3950
-Wire Wire Line
-	4000 3950 4000 4100
 Text HLabel 4400 3550 2    50   Input ~ 0
 PMS7003S_RESET_5
-Text HLabel 4400 3750 2    50   Input ~ 0
+Text HLabel 4400 3650 2    50   Input ~ 0
 PMS7003S_RXD_7
-Text HLabel 4400 3850 2    50   Input ~ 0
+Text HLabel 4400 3750 2    50   Input ~ 0
 PMS7003S_TXD_9
-Text HLabel 4400 3950 2    50   Input ~ 0
+Text HLabel 4400 3850 2    50   Input ~ 0
 PMS7003S_SET_10
 Wire Wire Line
-	4400 3950 4000 3950
-Connection ~ 4000 3950
-Wire Wire Line
-	3450 3850 4400 3850
+	3450 3750 4400 3750
 $Comp
 L power:+5V #PWR0128
 U 1 1 5BDB473F
@@ -1822,7 +1815,7 @@ Wire Wire Line
 	4200 3550 4400 3550
 Connection ~ 4200 3550
 Wire Wire Line
-	3450 3750 4400 3750
+	3450 3650 4400 3650
 $Comp
 L power:+5V #PWR0131
 U 1 1 5C00525B
@@ -1860,10 +1853,6 @@ Wire Wire Line
 	2250 2250 2250 2400
 Wire Wire Line
 	2250 2600 2250 2850
-Text HLabel 4400 3650 2    50   Input ~ 0
-PMS7003S_RXD_7
-Wire Wire Line
-	3450 3650 4400 3650
 Wire Wire Line
 	3800 3550 3800 4400
 Connection ~ 3800 3550
@@ -1878,4 +1867,11 @@ Wire Wire Line
 Connection ~ 3600 3450
 Wire Wire Line
 	3600 3450 4050 3450
+Wire Wire Line
+	3450 3850 4000 3850
+Wire Wire Line
+	4400 3850 4000 3850
+Connection ~ 4000 3850
+Wire Wire Line
+	4000 3850 4000 4100
 $EndSCHEMATC

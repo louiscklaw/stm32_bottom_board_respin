@@ -852,21 +852,6 @@ Text Label 6550 1250 2    50   ~ 0
 VCC3V3
 Wire Wire Line
 	6100 1100 6100 1250
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5BE05EFF
-P 2250 4350
-F 0 "JP1" H 2250 4535 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2250 4444 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2250 4350 50  0001 C CNN
-F 3 "~" H 2250 4350 50  0001 C CNN
-	1    2250 4350
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	1950 4350 2150 4350
-Wire Wire Line
-	2350 4350 2500 4350
 Text Label 2250 4150 2    50   ~ 0
 PB9
 Wire Wire Line
@@ -1498,4 +1483,6 @@ Wire Wire Line
 	1950 5750 1950 5950
 Text Notes 1350 6300 0    50   ~ 0
 update to incidate the +3V3 is not necessary
+Wire Wire Line
+	1950 4350 2500 4350
 $EndSCHEMATC
