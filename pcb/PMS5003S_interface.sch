@@ -1848,4 +1848,6 @@ Wire Wire Line
 Connection ~ 4200 3750
 Wire Wire Line
 	3450 3950 4400 3950
+NoConn ~ 3450 3850
+NoConn ~ 3450 4050
 $EndSCHEMATC
