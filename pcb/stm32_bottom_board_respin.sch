@@ -252,27 +252,21 @@ F 3 "~" H 2600 6250 50  0001 C CNN
 $EndComp
 Text Label 1650 6250 0    50   ~ 0
 FAN_48V_GND
-Wire Wire Line
-	2400 6350 2350 6350
 Text Label 1550 6350 0    50   ~ 0
 FAN_48V
-Wire Wire Line
-	1550 6350 2350 6350
 $Comp
 L power:GND #PWR03
 U 1 1 5BCC7684
-P 2350 6450
-F 0 "#PWR03" H 2350 6200 50  0001 C CNN
-F 1 "GND" H 2355 6277 50  0000 C CNN
-F 2 "" H 2350 6450 50  0001 C CNN
-F 3 "" H 2350 6450 50  0001 C CNN
-	1    2350 6450
-	1    0    0    -1  
+P 2300 6050
+F 0 "#PWR03" H 2300 5800 50  0001 C CNN
+F 1 "GND" H 2305 5877 50  0000 C CNN
+F 2 "" H 2300 6050 50  0001 C CNN
+F 3 "" H 2300 6050 50  0001 C CNN
+	1    2300 6050
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2350 6350 2350 6450
-Wire Wire Line
-	2400 6250 1650 6250
+	2400 6250 2300 6250
 $Sheet
 S 6200 8400 1500 850 
 U 5BCB4060
@@ -542,7 +536,6 @@ Wire Wire Line
 	4150 6550 3350 6550
 Text Label 3350 6550 0    50   ~ 0
 FAN_PWM_OUTPUT
-Connection ~ 2350 6350
 Text Notes 3450 6800 0    50   ~ 0
 follows PC fan ordering
 $Comp
@@ -692,4 +685,11 @@ F 3 "~" H 4350 3200 50  0001 C CNN
 	1    4350 3200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1550 6350 2400 6350
+Wire Wire Line
+	2300 6050 2300 6250
+Connection ~ 2300 6250
+Wire Wire Line
+	2300 6250 1650 6250
 $EndSCHEMATC
