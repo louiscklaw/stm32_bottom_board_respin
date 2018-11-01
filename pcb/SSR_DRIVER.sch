@@ -134,7 +134,7 @@ AR Path="/5BCB4A39/5BCB53B0" Ref="U2"  Part="1"
 AR Path="/5BE41138/5BCB53B0" Ref="U?"  Part="1" 
 F 0 "U2" H 6150 2083 50  0000 C CNN
 F 1 "OMRON-G3MB-202P" H 6150 2174 50  0000 C CNN
-F 2 "footprint-lib:OMRON-G3MB-202P" H 5950 2200 50  0001 L CIN
+F 2 "footprint-lib.pretty:OMRON-G3MB-202P" H 5950 2200 50  0001 L CIN
 F 3 "http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s01_e.pdf" H 6115 2400 50  0001 L CNN
 	1    6150 2400
 	1    0    0    1   
