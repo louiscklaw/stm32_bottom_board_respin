@@ -321,8 +321,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 6650 10800 6650
 Wire Wire Line
-	3500 3300 3950 3300
-Wire Wire Line
 	3500 3200 3750 3200
 Wire Wire Line
 	4800 3100 5550 3100
@@ -458,7 +456,7 @@ U 1 1 5BDDACA3
 P 3750 2850
 F 0 "R5" H 3809 2896 50  0000 L CNN
 F 1 "R472,0603" H 3809 2805 50  0000 L CNN
-F 2 "" H 3750 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 2850 50  0001 C CNN
 F 3 "~" H 3750 2850 50  0001 C CNN
 	1    3750 2850
 	1    0    0    -1  
@@ -469,7 +467,7 @@ U 1 1 5BDDACCF
 P 3950 2850
 F 0 "R6" H 4009 2896 50  0000 L CNN
 F 1 "R472,0603" H 4009 2805 50  0000 L CNN
-F 2 "" H 3950 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 2850 50  0001 C CNN
 F 3 "~" H 3950 2850 50  0001 C CNN
 	1    3950 2850
 	1    0    0    -1  
@@ -478,15 +476,11 @@ Wire Wire Line
 	3750 2650 3750 2700
 Wire Wire Line
 	3750 2700 3950 2700
-Wire Wire Line
-	3950 2700 3950 2750
 Connection ~ 3750 2700
 Wire Wire Line
 	3750 2700 3750 2750
 Wire Wire Line
 	3750 2950 3750 3200
-Wire Wire Line
-	3950 2950 3950 3300
 $Comp
 L Connector_Generic:Conn_01x08 J10
 U 1 1 5BD05062
@@ -499,77 +493,8 @@ F 3 "~" H 5750 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 3600 4250 3600
-Wire Wire Line
-	3700 3700 4250 3700
-Wire Wire Line
-	4450 3700 5050 3700
-Wire Wire Line
-	5050 3700 5050 3300
-Wire Wire Line
 	5050 3300 5550 3300
-Wire Wire Line
-	5550 3200 4950 3200
-Wire Wire Line
-	4950 3200 4950 3600
-Wire Wire Line
-	4950 3600 4450 3600
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5BDDECBA
-P 4350 3200
-F 0 "JP2" H 4350 3385 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4350 3294 50  0000 C CNN
-F 2 "" H 4350 3200 50  0001 C CNN
-F 3 "~" H 4350 3200 50  0001 C CNN
-	1    4350 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 5BDDED1D
-P 4350 3300
-F 0 "JP3" H 4350 3485 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4350 3394 50  0000 C CNN
-F 2 "" H 4350 3300 50  0001 C CNN
-F 3 "~" H 4350 3300 50  0001 C CNN
-	1    4350 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 3300 5050 3300
-Connection ~ 5050 3300
-Wire Wire Line
-	4450 3200 4950 3200
-Connection ~ 4950 3200
-Wire Wire Line
-	3750 3200 4250 3200
 Connection ~ 3750 3200
-Wire Wire Line
-	3950 3300 4250 3300
-Connection ~ 3950 3300
-$Comp
-L Device:Jumper_NO_Small JP5
-U 1 1 5BE40594
-P 4350 3700
-F 0 "JP5" H 4350 3885 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4350 3794 50  0000 C CNN
-F 2 "" H 4350 3700 50  0001 C CNN
-F 3 "~" H 4350 3700 50  0001 C CNN
-	1    4350 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 5BE405D0
-P 4350 3600
-F 0 "JP4" H 4350 3785 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4350 3694 50  0000 C CNN
-F 2 "" H 4350 3600 50  0001 C CNN
-F 3 "~" H 4350 3600 50  0001 C CNN
-	1    4350 3600
-	1    0    0    -1  
-$EndComp
 Text Label 9050 7850 2    50   ~ 0
 SSR_CH2_OUTPUT1
 Text Label 9050 7950 2    50   ~ 0
@@ -692,4 +617,79 @@ Wire Notes Line
 	9350 5000 9350 11100
 Text Notes 10150 5800 0    300  ~ 0
 TO MAIN LANDING BOARD
+Wire Wire Line
+	3950 3300 4250 3300
+Wire Wire Line
+	3500 3300 3950 3300
+Connection ~ 3950 3300
+Wire Wire Line
+	3950 2700 3950 2750
+Wire Wire Line
+	3950 2950 3950 3300
+Wire Wire Line
+	3700 3700 4250 3700
+Wire Wire Line
+	3750 3200 4250 3200
+Wire Wire Line
+	3700 3600 4250 3600
+Wire Wire Line
+	5050 3700 5050 3300
+Wire Wire Line
+	4450 3700 5050 3700
+Wire Wire Line
+	4950 3600 4450 3600
+Wire Wire Line
+	4450 3200 4950 3200
+Wire Wire Line
+	5550 3200 4950 3200
+Connection ~ 4950 3200
+Wire Wire Line
+	4950 3200 4950 3600
+Connection ~ 5050 3300
+Wire Wire Line
+	4450 3300 5050 3300
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5BE405D0
+P 4350 3600
+F 0 "JP4" H 4350 3785 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4350 3694 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4350 3600 50  0001 C CNN
+F 3 "~" H 4350 3600 50  0001 C CNN
+	1    4350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5BE40594
+P 4350 3700
+F 0 "JP5" H 4350 3885 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4350 3794 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4350 3700 50  0001 C CNN
+F 3 "~" H 4350 3700 50  0001 C CNN
+	1    4350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5BDDED1D
+P 4350 3300
+F 0 "JP3" H 4350 3485 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4350 3394 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4350 3300 50  0001 C CNN
+F 3 "~" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5BDDECBA
+P 4350 3200
+F 0 "JP2" H 4350 3385 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4350 3294 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4350 3200 50  0001 C CNN
+F 3 "~" H 4350 3200 50  0001 C CNN
+	1    4350 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
