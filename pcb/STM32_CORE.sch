@@ -770,7 +770,7 @@ F 3 "" H 3850 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 4350 2500 4500
+	2500 3050 2500 2900
 $Comp
 L power:GND #PWR018
 U 1 1 5BD90F7D
@@ -1000,13 +1000,13 @@ $EndComp
 $Comp
 L power:+5V #PWR021
 U 1 1 5BCACB86
-P 2500 4500
-F 0 "#PWR021" H 2500 4350 50  0001 C CNN
-F 1 "+5V" H 2500 4700 50  0000 C CNN
-F 2 "" H 2500 4500 50  0001 C CNN
-F 3 "" H 2500 4500 50  0001 C CNN
-	1    2500 4500
-	1    0    0    1   
+P 2500 2900
+F 0 "#PWR021" H 2500 2750 50  0001 C CNN
+F 1 "+5V" H 2500 3100 50  0000 C CNN
+F 2 "" H 2500 2900 50  0001 C CNN
+F 3 "" H 2500 2900 50  0001 C CNN
+	1    2500 2900
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR024
@@ -1462,7 +1462,7 @@ Wire Wire Line
 Text Notes 1350 6300 0    50   ~ 0
 update to incidate the +3V3 is not necessary
 Wire Wire Line
-	1950 4350 2500 4350
+	1950 3050 2500 3050
 $Comp
 L power:+5V #PWR0114
 U 1 1 5BDC3128
