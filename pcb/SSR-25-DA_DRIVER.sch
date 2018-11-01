@@ -136,12 +136,6 @@ Wire Wire Line
 	6400 2950 6400 3050
 Wire Wire Line
 	6400 3050 6900 3050
-Wire Wire Line
-	6250 3250 6750 3250
-Wire Wire Line
-	6750 3250 6750 2850
-Wire Wire Line
-	6750 2850 6900 2850
 Connection ~ 6250 3250
 $Comp
 L power:VDD #PWR?
@@ -179,8 +173,10 @@ F 3 "" H 6150 3550 50  0001 L CNN
 	1    6150 3550
 	1    0    0    -1  
 $EndComp
-Text HLabel 6900 2850 2    50   Input ~ 0
-SSR-25-DA1
+Text HLabel 6900 3250 2    50   Input ~ 0
+SSR-25-DA_N
 Text HLabel 6900 3050 2    50   Input ~ 0
-SSR-25-DA2
+SSR-25-DA_P
+Wire Wire Line
+	6250 3250 6900 3250
 $EndSCHEMATC
