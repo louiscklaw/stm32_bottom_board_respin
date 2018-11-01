@@ -18,6 +18,8 @@ $Comp
 L taobao-r:R331 R1
 U 1 1 5BCB4B6E
 P 4500 3000
+AR Path="/5BCB4A39/5BCB4B6E" Ref="R1"  Part="1" 
+AR Path="/5BE41138/5BCB4B6E" Ref="R?"  Part="1" 
 F 0 "R1" V 4304 3000 50  0000 C CNN
 F 1 "R331" V 4395 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 3000 50  0001 C CNN
@@ -26,11 +28,13 @@ F 3 "~" H 4500 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 4000 3000 0    50   Input ~ 0
-STM32_SSR_OUTPUT
+STM32_SSR1_OUTPUT
 $Comp
 L taobao-r:R103 R2
 U 1 1 5BCB4C36
 P 4750 3400
+AR Path="/5BCB4A39/5BCB4C36" Ref="R2"  Part="1" 
+AR Path="/5BE41138/5BCB4C36" Ref="R?"  Part="1" 
 F 0 "R2" H 4809 3446 50  0000 L CNN
 F 1 "R103" H 4809 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 3400 50  0001 C CNN
@@ -57,6 +61,8 @@ $Comp
 L power:GND #PWR011
 U 1 1 5BCB4D36
 P 4950 3850
+AR Path="/5BCB4A39/5BCB4D36" Ref="#PWR011"  Part="1" 
+AR Path="/5BE41138/5BCB4D36" Ref="#PWR?"  Part="1" 
 F 0 "#PWR011" H 4950 3600 50  0001 C CNN
 F 1 "GND" H 4955 3677 50  0000 C CNN
 F 2 "" H 4950 3850 50  0001 C CNN
@@ -73,6 +79,8 @@ $Comp
 L taobao-components:LED_RED D1
 U 1 1 5BCB4F0A
 P 4800 2200
+AR Path="/5BCB4A39/5BCB4F0A" Ref="D1"  Part="1" 
+AR Path="/5BE41138/5BCB4F0A" Ref="D?"  Part="1" 
 F 0 "D1" V 4846 2132 50  0000 R CNN
 F 1 "LED_BLUE" V 4755 2132 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4800 2200 50  0001 C CNN
@@ -84,6 +92,8 @@ $Comp
 L taobao-r:R331 R3
 U 1 1 5BCB4FB1
 P 4800 2500
+AR Path="/5BCB4A39/5BCB4FB1" Ref="R3"  Part="1" 
+AR Path="/5BE41138/5BCB4FB1" Ref="R?"  Part="1" 
 F 0 "R3" H 4859 2546 50  0000 L CNN
 F 1 "R331" H 4859 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 2500 50  0001 C CNN
@@ -105,6 +115,8 @@ $Comp
 L taobao-r:R151 R4
 U 1 1 5BCB51DC
 P 5350 2300
+AR Path="/5BCB4A39/5BCB51DC" Ref="R4"  Part="1" 
+AR Path="/5BE41138/5BCB51DC" Ref="R?"  Part="1" 
 F 0 "R4" H 5409 2346 50  0000 L CNN
 F 1 "R151" H 5409 2255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 2300 50  0001 C CNN
@@ -118,6 +130,8 @@ $Comp
 L Relay_SolidState:S102S01 U2
 U 1 1 5BCB53B0
 P 6150 2400
+AR Path="/5BCB4A39/5BCB53B0" Ref="U2"  Part="1" 
+AR Path="/5BE41138/5BCB53B0" Ref="U?"  Part="1" 
 F 0 "U2" H 6150 2083 50  0000 C CNN
 F 1 "OMRON-G3MB-202P" H 6150 2174 50  0000 C CNN
 F 2 "footprint-lib:OMRON-G3MB-202P" H 5950 2200 50  0001 L CIN
@@ -152,6 +166,8 @@ $Comp
 L power:VDD #PWR012
 U 1 1 5BCBF013
 P 5050 1900
+AR Path="/5BCB4A39/5BCBF013" Ref="#PWR012"  Part="1" 
+AR Path="/5BE41138/5BCBF013" Ref="#PWR?"  Part="1" 
 F 0 "#PWR012" H 5050 1750 50  0001 C CNN
 F 1 "VDD" H 5067 2073 50  0000 C CNN
 F 2 "" H 5050 1900 50  0001 C CNN
@@ -172,11 +188,194 @@ U 1 1 5BCBBF31
 P 5100 3000
 AR Path="/5BCBBF31" Ref="Q1"  Part="1" 
 AR Path="/5BCB4A39/5BCBBF31" Ref="Q1"  Part="1" 
+AR Path="/5BE41138/5BCBBF31" Ref="Q?"  Part="1" 
 F 0 "Q1" H 5300 3050 50  0000 L CNN
 F 1 "2N3904(1AM)" H 5300 3000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5300 2925 50  0001 L CIN
 F 3 "" H 5100 3000 50  0001 L CNN
 	1    5100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R331 R?
+U 1 1 5BE460BB
+P 4400 5550
+AR Path="/5BCB4A39/5BE460BB" Ref="R?"  Part="1" 
+AR Path="/5BE41138/5BE460BB" Ref="R?"  Part="1" 
+F 0 "R?" V 4204 5550 50  0000 C CNN
+F 1 "R331" V 4295 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 5550 50  0001 C CNN
+F 3 "~" H 4400 5550 50  0001 C CNN
+	1    4400 5550
+	0    1    1    0   
+$EndComp
+Text HLabel 3900 5550 0    50   Input ~ 0
+STM32_SSR2_OUTPUT
+$Comp
+L taobao-r:R103 R?
+U 1 1 5BE460C2
+P 4650 5950
+AR Path="/5BCB4A39/5BE460C2" Ref="R?"  Part="1" 
+AR Path="/5BE41138/5BE460C2" Ref="R?"  Part="1" 
+F 0 "R?" H 4709 5996 50  0000 L CNN
+F 1 "R103" H 4709 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 5950 50  0001 C CNN
+F 3 "~" H 4650 5950 50  0001 C CNN
+	1    4650 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5550 4300 5550
+Wire Wire Line
+	4500 5550 4650 5550
+Wire Wire Line
+	4650 5550 4650 5850
+Wire Wire Line
+	4800 5550 4650 5550
+Connection ~ 4650 5550
+Wire Wire Line
+	4650 6050 4650 6200
+Wire Wire Line
+	4650 6200 4850 6200
+Wire Wire Line
+	5100 6200 5100 5750
+$Comp
+L power:GND #PWR?
+U 1 1 5BE460D0
+P 4850 6400
+AR Path="/5BCB4A39/5BE460D0" Ref="#PWR?"  Part="1" 
+AR Path="/5BE41138/5BE460D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 6150 50  0001 C CNN
+F 1 "GND" H 4855 6227 50  0000 C CNN
+F 2 "" H 4850 6400 50  0001 C CNN
+F 3 "" H 4850 6400 50  0001 C CNN
+	1    4850 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6400 4850 6200
+Connection ~ 4850 6200
+Wire Wire Line
+	4850 6200 5100 6200
+$Comp
+L taobao-components:LED_RED D?
+U 1 1 5BE460D9
+P 4700 4750
+AR Path="/5BCB4A39/5BE460D9" Ref="D?"  Part="1" 
+AR Path="/5BE41138/5BE460D9" Ref="D?"  Part="1" 
+F 0 "D?" V 4746 4682 50  0000 R CNN
+F 1 "LED_BLUE" V 4655 4682 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4700 4750 50  0001 C CNN
+F 3 "~" V 4700 4750 50  0001 C CNN
+	1    4700 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R331 R?
+U 1 1 5BE460DF
+P 4700 5050
+AR Path="/5BCB4A39/5BE460DF" Ref="R?"  Part="1" 
+AR Path="/5BE41138/5BE460DF" Ref="R?"  Part="1" 
+F 0 "R?" H 4759 5096 50  0000 L CNN
+F 1 "R331" H 4759 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4700 5050 50  0001 C CNN
+F 3 "~" H 4700 5050 50  0001 C CNN
+	1    4700 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5150 4700 5250
+Wire Wire Line
+	4700 5250 5100 5250
+Wire Wire Line
+	5100 5250 5100 5350
+Wire Wire Line
+	4700 4550 4700 4650
+Wire Wire Line
+	4700 4850 4700 4950
+$Comp
+L taobao-r:R151 R?
+U 1 1 5BE460EA
+P 5250 4850
+AR Path="/5BCB4A39/5BE460EA" Ref="R?"  Part="1" 
+AR Path="/5BE41138/5BE460EA" Ref="R?"  Part="1" 
+F 0 "R?" H 5309 4896 50  0000 L CNN
+F 1 "R151" H 5309 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 4850 50  0001 C CNN
+F 3 "~" H 5250 4850 50  0001 C CNN
+	1    5250 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4550 5250 4750
+$Comp
+L Relay_SolidState:S102S01 U?
+U 1 1 5BE460F1
+P 6050 4950
+AR Path="/5BCB4A39/5BE460F1" Ref="U?"  Part="1" 
+AR Path="/5BE41138/5BE460F1" Ref="U?"  Part="1" 
+F 0 "U?" H 6050 4633 50  0000 C CNN
+F 1 "OMRON-G3MB-202P" H 6050 4724 50  0000 C CNN
+F 2 "footprint-lib:OMRON-G3MB-202P" H 5850 4750 50  0001 L CIN
+F 3 "http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s01_e.pdf" H 6015 4950 50  0001 L CNN
+	1    6050 4950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4950 5250 5050
+Wire Wire Line
+	5250 5050 5750 5050
+Wire Wire Line
+	5100 5250 5600 5250
+Wire Wire Line
+	5600 5250 5600 4850
+Wire Wire Line
+	5600 4850 5750 4850
+Connection ~ 5100 5250
+Text Label 7350 4850 2    50   ~ 0
+SSR_CH2_OUTPUT1
+Text Label 7350 5050 2    50   ~ 0
+SSR_CH2_OUTPUT2
+Text HLabel 7600 4850 2    50   Input ~ 0
+SSR_CH2_OUTPUT1
+Text HLabel 7600 5050 2    50   Input ~ 0
+SSR_CH2_OUTPUT2
+Wire Wire Line
+	6350 4850 7600 4850
+Wire Wire Line
+	6350 5050 7600 5050
+$Comp
+L power:VDD #PWR?
+U 1 1 5BE46103
+P 4950 4450
+AR Path="/5BCB4A39/5BE46103" Ref="#PWR?"  Part="1" 
+AR Path="/5BE41138/5BE46103" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 4300 50  0001 C CNN
+F 1 "VDD" H 4967 4623 50  0000 C CNN
+F 2 "" H 4950 4450 50  0001 C CNN
+F 3 "" H 4950 4450 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4450 4950 4550
+Wire Wire Line
+	4950 4550 4700 4550
+Wire Wire Line
+	4950 4550 5250 4550
+Connection ~ 4950 4550
+$Comp
+L taobao-transistor:2N3904(1AM) Q?
+U 1 1 5BE4610D
+P 5000 5550
+AR Path="/5BE4610D" Ref="Q?"  Part="1" 
+AR Path="/5BCB4A39/5BE4610D" Ref="Q?"  Part="1" 
+AR Path="/5BE41138/5BE4610D" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5200 5600 50  0000 L CNN
+F 1 "2N3904(1AM)" H 5200 5550 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5200 5475 50  0001 L CIN
+F 3 "" H 5000 5550 50  0001 L CNN
+	1    5000 5550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

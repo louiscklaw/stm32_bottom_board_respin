@@ -191,12 +191,8 @@ Wire Wire Line
 	8600 1650 8600 2200
 Text Label 8500 1650 3    50   ~ 0
 PB6
-Wire Wire Line
-	8500 1650 8500 2200
 Text Label 8400 1650 3    50   ~ 0
 PB7
-Wire Wire Line
-	8400 1650 8400 2200
 Text Label 8300 1650 3    50   ~ 0
 BOOT0
 Wire Wire Line
@@ -1203,9 +1199,9 @@ F 3 "" V 14850 5000 50  0001 C CNN
 	1    14850 5000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8400 1650 1    50   Input ~ 0
+Text GLabel 8150 1250 1    50   Input ~ 0
 I2C_SDA
-Text GLabel 8500 1650 1    50   Input ~ 0
+Text GLabel 8500 1250 1    50   Input ~ 0
 I2C_SCL
 Text GLabel 8600 1650 1    50   Input ~ 0
 SPI1_MOSI
@@ -1216,7 +1212,7 @@ SPI1_SCK
 Text GLabel 10000 3350 2    50   Input ~ 0
 STM32_FAN_PWM_OUTPUT
 Text GLabel 8400 4750 3    50   Input ~ 0
-STM32_SSR_OUTPUT
+STM32_SSR1_OUTPUT
 Text GLabel 8500 4750 3    50   Input ~ 0
 STM32_SSR-25-DA_OUTPUT
 Text GLabel 6900 3750 0    50   Input ~ 0
@@ -1379,9 +1375,9 @@ F 3 "" H 11050 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11050 5350 11050 5550
-Text GLabel 10000 3150 2    50   Input ~ 0
+Text GLabel 8800 4750 3    50   Input ~ 0
 STM32_PMS7003S_RXD
-Text GLabel 10000 3250 2    50   Input ~ 0
+Text GLabel 8700 4750 3    50   Input ~ 0
 STM32_PMS7003S_TXD
 Text Label 6550 1400 2    50   ~ 0
 VBAT
@@ -1434,10 +1430,34 @@ Text GLabel 10000 2950 2    50   Input ~ 0
 STM32_PMS7003S_RESET
 Text GLabel 10000 3050 2    50   Input ~ 0
 STM32_PMS7003S_SET
-Text GLabel 8700 4750 3    50   Input ~ 0
+Text GLabel 8350 1250 1    50   Input ~ 0
 B2B_UART_TX
-Text GLabel 8800 4750 3    50   Input ~ 0
+Text GLabel 8000 1250 1    50   Input ~ 0
 B2B_UART_RX
 Wire Wire Line
 	1800 5650 2650 5650
+Wire Wire Line
+	8350 1250 8350 1300
+Wire Wire Line
+	8350 1300 8500 1300
+Wire Wire Line
+	8500 1300 8500 1250
+Wire Wire Line
+	8500 1300 8500 2200
+Connection ~ 8500 1300
+Wire Wire Line
+	8000 1250 8000 1300
+Wire Wire Line
+	8000 1300 8150 1300
+Wire Wire Line
+	8150 1300 8150 1250
+Wire Wire Line
+	8150 1300 8150 1350
+Wire Wire Line
+	8150 1350 8400 1350
+Wire Wire Line
+	8400 1350 8400 2200
+Connection ~ 8150 1300
+Text GLabel 8300 4750 3    50   Input ~ 0
+STM32_SSR2_OUTPUT
 $EndSCHEMATC
