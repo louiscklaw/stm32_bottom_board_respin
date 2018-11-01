@@ -1289,17 +1289,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 5650 1800 5650
 $Comp
-L tinkerforge:+5V #PWR0114
-U 1 1 5BD3EFE4
-P 14200 4750
-F 0 "#PWR0114" H 14200 4600 50  0001 C CNN
-F 1 "+5V" H 14215 4923 50  0000 C CNN
-F 2 "" H 14200 4750 50  0000 C CNN
-F 3 "" H 14200 4750 50  0000 C CNN
-	1    14200 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-osc:O_EPSON_32.768K Y2
 U 1 1 5BD58864
 P 14700 7500
@@ -1485,4 +1474,15 @@ Text Notes 1350 6300 0    50   ~ 0
 update to incidate the +3V3 is not necessary
 Wire Wire Line
 	1950 4350 2500 4350
+$Comp
+L power:+5V #PWR?
+U 1 1 5BDC3128
+P 14200 4750
+F 0 "#PWR?" H 14200 4600 50  0001 C CNN
+F 1 "+5V" H 14250 4950 50  0000 C CNN
+F 2 "" H 14200 4750 50  0001 C CNN
+F 3 "" H 14200 4750 50  0001 C CNN
+	1    14200 4750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
