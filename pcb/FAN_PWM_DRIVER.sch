@@ -101,4 +101,52 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2750 2200 50  000
 	1    2750 2200
 	1    0    0    -1  
 $EndComp
+Text HLabel 1750 3900 0    50   Input ~ 0
+STM32_FAN_RPM
+$Comp
+L power:VDD #PWR?
+U 1 1 5BDC0579
+P 2350 3350
+F 0 "#PWR?" H 2350 3200 50  0001 C CNN
+F 1 "VDD" H 2367 3523 50  0000 C CNN
+F 2 "" H 2350 3350 50  0001 C CNN
+F 3 "" H 2350 3350 50  0001 C CNN
+	1    2350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103 R?
+U 1 1 5BDC0610
+P 2350 3600
+F 0 "R?" H 2409 3646 50  0000 L CNN
+F 1 "R103" H 2409 3555 50  0000 L CNN
+F 2 "" H 2350 3600 50  0001 C CNN
+F 3 "~" H 2350 3600 50  0001 C CNN
+	1    2350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-d:1N4148 D?
+U 1 1 5BDC3BB5
+P 2550 3900
+F 0 "D?" H 2550 3695 50  0000 C CNN
+F 1 "1N4148" H 2550 3786 50  0000 C CNN
+F 2 "" V 2550 3900 50  0001 C CNN
+F 3 "~" V 2550 3900 50  0001 C CNN
+	1    2550 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 3350 2350 3500
+Wire Wire Line
+	1750 3900 2350 3900
+Wire Wire Line
+	2350 3900 2350 3700
+Wire Wire Line
+	2350 3900 2450 3900
+Connection ~ 2350 3900
+Text HLabel 3750 3900 2    50   Input ~ 0
+FAN_RPM
+Wire Wire Line
+	2650 3900 3750 3900
 $EndSCHEMATC

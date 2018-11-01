@@ -1460,4 +1460,6 @@ Wire Wire Line
 Connection ~ 8150 1300
 Text GLabel 8300 4750 3    50   Input ~ 0
 STM32_SSR2_OUTPUT
+Text GLabel 10000 3750 2    50   Input ~ 0
+STM32_FAN_RPM
 $EndSCHEMATC
