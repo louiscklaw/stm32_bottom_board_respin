@@ -128,13 +128,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5BCB931B
-P 11000 8000
-F 0 "J4" H 11080 7992 50  0000 L CNN
-F 1 "SSR_OUTPUT" H 11080 7901 50  0000 L CNN
-F 2 "footprint-lib:s2b-ph-kl" H 11000 8000 50  0001 C CNN
-F 3 "~" H 11000 8000 50  0001 C CNN
-	1    11000 8000
-	1    0    0    -1  
+P 11000 8100
+F 0 "J4" H 11080 8092 50  0000 L CNN
+F 1 "SSR_OUTPUT" H 11080 8001 50  0000 L CNN
+F 2 "footprint-lib:s2b-ph-kl" H 11000 8100 50  0001 C CNN
+F 3 "~" H 11000 8100 50  0001 C CNN
+	1    11000 8100
+	1    0    0    1   
 $EndComp
 $Sheet
 S 6200 6150 1500 750 
