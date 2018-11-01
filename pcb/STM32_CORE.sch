@@ -1494,4 +1494,6 @@ F 3 "~" H 1250 1600 50  0001 C CNN
 	1    1250 1600
 	0    -1   1    0   
 $EndComp
+Text Notes 10950 5300 2    50   ~ 0
+to stablize power from power supply ->
 $EndSCHEMATC
