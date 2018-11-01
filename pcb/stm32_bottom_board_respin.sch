@@ -572,14 +572,14 @@ F 3 "" H 3750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J14
+L Connector_Generic:Conn_01x08 J14
 U 1 1 5BDC7136
-P 11350 9350
-F 0 "J14" H 11430 9342 50  0000 L CNN
-F 1 "PCB_UART" H 11430 9251 50  0000 L CNN
-F 2 "w_conn_mkds:mkds_1,5-3" H 11350 9350 50  0001 C CNN
-F 3 "~" H 11350 9350 50  0001 C CNN
-	1    11350 9350
+P 11350 9250
+F 0 "J14" H 11430 9242 50  0000 L CNN
+F 1 "PCB_UART" H 11430 9151 50  0000 L CNN
+F 2 "footprint-lib:s8b-ph-kl" H 11350 9250 50  0001 C CNN
+F 3 "~" H 11350 9250 50  0001 C CNN
+	1    11350 9250
 	1    0    0    -1  
 $EndComp
 Text Label 10400 9250 0    50   ~ 0
