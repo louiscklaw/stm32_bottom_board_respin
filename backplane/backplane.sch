@@ -148,73 +148,10 @@ Wire Wire Line
 	10400 3500 11050 3500
 Wire Wire Line
 	11050 3600 10400 3600
-$Comp
-L bluepill:Conn_01x03 J8
-U 1 1 5B5EB21A
-P 2900 3350
-F 0 "J8" H 2900 3550 50  0000 C CNN
-F 1 "Conn_flow_sensor_terminal" H 2900 3150 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder" H 2900 3350 50  0001 C CNN
-F 3 "" H 2900 3350 50  0001 C CNN
-	1    2900 3350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L bluepill:Conn_01x02 J7
-U 1 1 5B5EB281
-P 2900 2750
-F 0 "J7" H 2900 2850 50  0000 C CNN
-F 1 "Conn_humidity_sensor_terminal" H 2900 2550 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder" H 2900 2750 50  0001 C CNN
-F 3 "" H 2900 2750 50  0001 C CNN
-	1    2900 2750
-	-1   0    0    -1  
-$EndComp
-Text Label 4250 2850 2    60   ~ 0
-humidity_black_wire
-Text Label 4250 2750 2    60   ~ 0
-humidity
-Wire Wire Line
-	3100 2750 4250 2750
-Wire Wire Line
-	4250 2850 3100 2850
-Text Label 4250 3250 2    60   ~ 0
-flow_sensor_r
-Text Label 4250 3350 2    60   ~ 0
-flow_sensor_br
-Text Label 4250 3450 2    60   ~ 0
-flow_sensor_w
-Wire Wire Line
-	3100 3250 4250 3250
-Wire Wire Line
-	4250 3350 3100 3350
-Wire Wire Line
-	3100 3450 4250 3450
 Text Notes 4450 6500 2    60   ~ 0
 the connection between \npcb2 and flow sensor device
-Text Notes 5150 3700 2    60   ~ 0
-connection between \noutside sensor wire and back plane
 Text Notes 10700 5250 2    60   ~ 0
 connection from\nPCB1 to PCB2 via backplane
-$Comp
-L bluepill:Conn_01x02 J9
-U 1 1 5B5ECB27
-P 3000 6950
-F 0 "J9" H 3000 7050 50  0000 C CNN
-F 1 "Conn_SSR_5V_INPUT" H 3000 6750 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder" H 3000 6950 50  0001 C CNN
-F 3 "" H 3000 6950 50  0001 C CNN
-	1    3000 6950
-	-1   0    0    -1  
-$EndComp
-Text Label 4100 6950 2    60   ~ 0
-SSR_OUTPUT
-Text Label 4100 7050 2    60   ~ 0
-SSR_COMMON
-Wire Wire Line
-	4100 6950 3200 6950
-Wire Wire Line
-	3200 7050 4100 7050
 Text Label 3300 8450 2    60   ~ 0
 PWR_SOURCE_SSR_L_1
 Text Label 3300 8650 2    60   ~ 0
@@ -436,29 +373,6 @@ F 3 "" H 2050 8550 50  0001 C CNN
 $EndComp
 Text Notes 3350 11400 0    60   ~ 0
 FLOW SENSOR TERMINAL TO BOARD
-$Comp
-L bluepill:Conn_01x03 J23
-U 1 1 5B6327A8
-P 20200 4500
-F 0 "J23" H 20200 4700 50  0000 C CNN
-F 1 "PCB1_COMM_CONNECTOR" H 20200 4300 50  0000 C CNN
-F 2 "backplate:Pin_Header_Straight_1x03_Pitch2.54mm" H 20200 4500 50  0001 C CNN
-F 3 "" H 20200 4500 50  0001 C CNN
-	1    20200 4500
-	1    0    0    -1  
-$EndComp
-Text Label 18700 4600 0    60   ~ 0
-PCB1_232_TX
-Text Label 18700 4500 0    60   ~ 0
-PCB1_232_RX
-Text Label 18700 4400 0    60   ~ 0
-PCB1_UART_COM
-Wire Wire Line
-	18700 4400 20000 4400
-Wire Wire Line
-	18700 4500 20000 4500
-Wire Wire Line
-	18700 4600 20000 4600
 Text Label 3300 8550 2    60   ~ 0
 220V_GND
 Wire Wire Line
@@ -547,225 +461,27 @@ Wire Wire Line
 	8900 6350 8900 6150
 Wire Wire Line
 	7200 6150 8900 6150
+Wire Wire Line
+	18700 4600 20000 4600
+Wire Wire Line
+	18700 4500 20000 4500
+Wire Wire Line
+	18700 4400 20000 4400
+Text Label 18700 4400 0    60   ~ 0
+PCB1_UART_COM
+Text Label 18700 4500 0    60   ~ 0
+PCB1_232_RX
+Text Label 18700 4600 0    60   ~ 0
+PCB1_232_TX
 $Comp
-L Connector:Screw_Terminal_01x08 J31
-U 1 1 5B7FFF23
-P 20200 6850
-F 0 "J31" H 20280 6842 50  0000 L CNN
-F 1 "LCD_MCU_CONNECTOR" H 20280 6751 50  0000 L CNN
-F 2 "backplate:PinHeader_1x08_P2.54mm_Vertical_handsolder" H 20200 6850 50  0001 C CNN
-F 3 "" H 20200 6850 50  0001 C CNN
-	1    20200 6850
-	1    0    0    -1  
-$EndComp
-Text Label 18700 6750 0    60   ~ 0
-PB_15
-Text Label 18700 6850 0    60   ~ 0
-PB_14
-Text Label 18700 6650 0    60   ~ 0
-PB_13
-Text Label 18700 6550 0    60   ~ 0
-MCU_GND
-Wire Wire Line
-	18700 6750 20000 6750
-Wire Wire Line
-	18700 6850 20000 6850
-Wire Wire Line
-	18700 6650 20000 6650
-Wire Wire Line
-	18700 6550 20000 6550
-Text Notes 19450 7500 0    60   ~ 0
-BOTTOM MCU TERMINAL
-Text Label 18700 7250 0    60   ~ 0
-MCU_5V
-Wire Wire Line
-	20000 7250 18700 7250
-Text Label 18700 6950 0    60   ~ 0
-PB_12
-Wire Wire Line
-	18700 6950 20000 6950
-Text Label 18700 7150 0    60   ~ 0
-PB_11
-Text Label 18700 7050 0    60   ~ 0
-PB_10
-Wire Wire Line
-	18700 7050 20000 7050
-Wire Wire Line
-	18700 7150 20000 7150
-Wire Wire Line
-	18700 5850 20000 5850
-Text Label 18700 5850 0    60   ~ 0
-PA_0
-NoConn ~ 20000 5950
-Wire Wire Line
-	18700 5750 20000 5750
-Text Label 18700 5750 0    60   ~ 0
-PB_12
-Wire Wire Line
-	20000 6050 18700 6050
-Text Label 18700 6050 0    60   ~ 0
-MCU_5V
-Text Notes 19450 6300 0    60   ~ 0
-BOTTOM MCU TERMINAL
-Wire Wire Line
-	18700 5350 20000 5350
-Wire Wire Line
-	18700 5450 20000 5450
-Wire Wire Line
-	18700 5650 20000 5650
-Wire Wire Line
-	18700 5550 20000 5550
-Text Label 18700 5350 0    60   ~ 0
-MCU_GND
-Text Label 18700 5450 0    60   ~ 0
-PB_13
-Text Label 18700 5650 0    60   ~ 0
-PB_14
-Text Label 18700 5550 0    60   ~ 0
-PB_15
-$Comp
-L Connector_Generic:Conn_01x08 J14
-U 1 1 5B631E27
-P 20200 5650
-F 0 "J14" H 20280 5642 50  0000 L CNN
-F 1 "LCD_MCU_CONNECTOR" H 20280 5551 50  0000 L CNN
-F 2 "backplate:TE_84952-8_1x08-1MP_P1.0mm_Horizontal" H 20200 5650 50  0001 C CNN
-F 3 "" H 20200 5650 50  0001 C CNN
-	1    20200 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16350 2750 17650 2750
-Text Label 16350 2750 0    60   ~ 0
-FAN_48V
-$Comp
-L Connector_Generic:Conn_01x04 J37
-U 1 1 5B9FA2EE
-P 17850 2850
-F 0 "J37" H 17930 2842 50  0000 L CNN
-F 1 "FAN_TEST_POINT" H 17930 2751 50  0000 L CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical_handsolder" H 17850 2850 50  0001 C CNN
-F 3 "~" H 17850 2850 50  0001 C CNN
-	1    17850 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16350 2950 17650 2950
-Wire Wire Line
-	16350 3050 17650 3050
-Wire Wire Line
-	16350 2850 17650 2850
-Text Label 16350 2850 0    60   ~ 0
-FAN_GND
-Text Label 16350 3050 0    60   ~ 0
-MCU_FAN_RPM
-Text Label 16350 2950 0    60   ~ 0
-FAN_PWM_5V
-Wire Wire Line
-	18700 2750 20000 2750
-Text Label 18700 2750 0    60   ~ 0
-FAN_48V
-Wire Wire Line
-	20000 2350 19350 2350
-Wire Wire Line
-	20000 2450 19350 2450
-Text Label 19350 2450 0    60   ~ 0
-FAN_GND
-Text Label 19350 2350 0    60   ~ 0
-FAN_48V
-$Comp
-L bluepill:Conn_01x02 J3
-U 1 1 5B7616FD
-P 20200 2350
-F 0 "J3" H 20200 2450 50  0000 C CNN
-F 1 "Conn_FAN_48V_SOURCE" H 20200 2150 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder" H 20200 2350 50  0001 C CNN
-F 3 "" H 20200 2350 50  0001 C CNN
-	1    20200 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J20
-U 1 1 5B6F9B1C
-P 20200 2850
-F 0 "J20" H 20280 2842 50  0000 L CNN
-F 1 "FAN_CONNECTOR" H 20280 2751 50  0000 L CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical_handsolder" H 20200 2850 50  0001 C CNN
-F 3 "~" H 20200 2850 50  0001 C CNN
-	1    20200 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18700 2950 20000 2950
-Wire Wire Line
-	18700 3050 20000 3050
-Wire Wire Line
-	18700 2850 20000 2850
-Text Label 18700 2850 0    60   ~ 0
-FAN_GND
-Text Label 18700 3050 0    60   ~ 0
-MCU_FAN_RPM
-Text Label 18700 2950 0    60   ~ 0
-FAN_PWM_5V
-Wire Wire Line
-	18700 3350 20000 3350
-Wire Wire Line
-	18700 3450 20000 3450
-Text Label 18700 3450 0    60   ~ 0
-PERRUME_GND
-Text Label 18700 3350 0    60   ~ 0
-PERFUME_OUTPUT
-$Comp
-L bluepill:Conn_01x02 J21
-U 1 1 5B632C6A
-P 20200 3350
-F 0 "J21" H 20200 3450 50  0000 C CNN
-F 1 "PERFUME_CONNECTOR" H 20200 3150 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder" H 20200 3350 50  0001 C CNN
-F 3 "" H 20200 3350 50  0001 C CNN
-	1    20200 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18700 3800 20000 3800
-Text Label 18700 3800 0    60   ~ 0
-RGB_LED_STRIP_5V
-Wire Wire Line
-	18700 3900 20000 3900
-Wire Wire Line
-	18700 4000 20000 4000
-Text Label 18700 4000 0    60   ~ 0
-RGB_LED_STRIP_GND
-Text Label 18700 3900 0    60   ~ 0
-RGB_LED_STRIP_OUTPUT
-$Comp
-L bluepill:Conn_01x03 J22
-U 1 1 5B6329E3
-P 20200 3900
-F 0 "J22" H 20200 4100 50  0000 C CNN
-F 1 "LED_STRIP_CONNECTOR" H 20200 3700 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder" H 20200 3900 50  0001 C CNN
-F 3 "" H 20200 3900 50  0001 C CNN
-	1    20200 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20000 1950 19350 1950
-Wire Wire Line
-	20000 2050 19350 2050
-Text Label 19350 2050 0    60   ~ 0
-MCU_GND
-Text Label 19350 1950 0    60   ~ 0
-MCU_5V
-$Comp
-L bluepill:Conn_01x02 J6
-U 1 1 5B5EF082
-P 20200 1950
-F 0 "J6" H 20200 2050 50  0000 C CNN
-F 1 "Conn_MCU_5V_SOURCE" H 20200 1750 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder" H 20200 1950 50  0001 C CNN
-F 3 "" H 20200 1950 50  0001 C CNN
-	1    20200 1950
+L bluepill:Conn_01x03 J23
+U 1 1 5B6327A8
+P 20200 4500
+F 0 "J23" H 20200 4700 50  0000 C CNN
+F 1 "PCB1_COMM_CONNECTOR" H 20200 4300 50  0000 C CNN
+F 2 "backplate:Pin_Header_Straight_1x03_Pitch2.54mm" H 20200 4500 50  0001 C CNN
+F 3 "" H 20200 4500 50  0001 C CNN
+	1    20200 4500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
