@@ -1,0 +1,427 @@
+Cmp-Mod V01 Created by PcbNew   date = Thu 23 Aug 2018 12:35:59 AM HKT
+
+BeginCmp
+TimeStamp = 5B7F37DC
+Path = /5B631E27
+Reference = J14;
+ValeurCmp = LCD_MCU_CONNECTOR;
+IdModule  = backplate:TE_84952-8_1x08-1MP_P1.0mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7DA75E
+Path = /5B78055B
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm_Clear;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D8795
+Path = /5B780554
+Reference = R8;
+ValeurCmp = 330;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D47EC
+Path = /5B93770C
+Reference = J27;
+ValeurCmp = UART2;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D42B7
+Path = /5B81F14E
+Reference = J29;
+ValeurCmp = UART3;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D4158
+Path = /5BA0A483
+Reference = J4;
+ValeurCmp = CONNECTOR;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D4094
+Path = /5B7F84AA
+Reference = J30;
+ValeurCmp = CONNECTOR;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D4052
+Path = /5B8BC31D
+Reference = J28;
+ValeurCmp = TEST;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D4010
+Path = /5B99F721
+Reference = J26;
+ValeurCmp = CONNECTOR;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7BB6D1
+Path = /5B7605EF
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm_Clear;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7BB69D
+Path = /5B7ADD15
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm_Clear;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7BB683
+Path = /5B7B978F
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm_Clear;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7BB669
+Path = /5B7C5915
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D3.0mm_Clear;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7C5A81
+Path = /5B8B1FFC
+Reference = R17;
+ValeurCmp = 0;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7C3487
+Path = /5B844EE1
+Reference = R16;
+ValeurCmp = 0;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B8918E1
+Path = /5BAD28B6
+Reference = R12;
+ValeurCmp = 120;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B891944
+Path = /5B7D8451
+Reference = R15;
+ValeurCmp = 0;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7C3354
+Path = /5BAD2908
+Reference = R14;
+ValeurCmp = 120;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7C3343
+Path = /5BAD28DF
+Reference = R13;
+ValeurCmp = 120;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7C32DE
+Path = /5BAFEC0D
+Reference = Q6;
+ValeurCmp = 2n3904;
+IdModule  = backplate:TO-92L_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7C32CC
+Path = /5BAD28BE
+Reference = Q5;
+ValeurCmp = 2n3904;
+IdModule  = backplate:TO-92L_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B891912
+Path = /5BAE8654
+Reference = Q4;
+ValeurCmp = 2n3904;
+IdModule  = backplate:TO-92L_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7ECD9F
+Path = /5BA2C6D6
+Reference = JP1;
+ValeurCmp = Jumper_NC_Dual;
+IdModule  = backplate:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7ECDE4
+Path = /5BA73D1B
+Reference = JP2;
+ValeurCmp = Jumper_NC_Dual;
+IdModule  = backplate:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7CF2AA
+Path = /5B829689
+Reference = U2;
+ValeurCmp = MAX3232_MODULE;
+IdModule  = backplate:MAX3232_MOEULE_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6EED79
+Path = /5B601AE7
+Reference = J5;
+ValeurCmp = Conn_SSR_POWER_SOURCE;
+IdModule  = backplate:screw_terminal_01_03;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7B2DCD
+Path = /5B7BE1F9
+Reference = J25;
+ValeurCmp = PCB1_ALARM;
+IdModule  = backplate:screw_terminal_01_03;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7654DF
+Path = /5B75281B
+Reference = J13;
+ValeurCmp = Conn_01x05;
+IdModule  = backplate:PhoenixContact_MCV_1,5_8-G-3.5_1x05_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B750772
+Path = /5B5FFAB1
+Reference = J15;
+ValeurCmp = Screw_Terminal_AQ_2;
+IdModule  = backplate:Pin_Header_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B75156A
+Path = /5B6327A8
+Reference = J23;
+ValeurCmp = PCB1_COMM_CONNECTOR;
+IdModule  = backplate:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B8485A2
+Path = /5B5ECB27
+Reference = J9;
+ValeurCmp = Conn_SSR_5V_INPUT;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D61F4
+Path = /5B745743
+Reference = U1;
+ValeurCmp = BLUEPILL;
+IdModule  = backplate:DIP-40_W15.24mm_Socket_LongPads_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B8472C0
+Path = /5B5EF082
+Reference = J6;
+ValeurCmp = Conn_MCU_5V_SOURCE;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B8472BF
+Path = /5B7616FD
+Reference = J3;
+ValeurCmp = Conn_FAN_48V_SOURCE;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B84725B
+Path = /5B632C6A
+Reference = J21;
+ValeurCmp = PERFUME_CONNECTOR;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B847229
+Path = /5B5EB281
+Reference = J7;
+ValeurCmp = Conn_humidity_sensor_terminal;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B8471E8
+Path = /5B6329E3
+Reference = J22;
+ValeurCmp = LED_STRIP_CONNECTOR;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B8471A7
+Path = /5B5EB21A
+Reference = J8;
+ValeurCmp = Conn_flow_sensor_terminal;
+IdModule  = backplate:PhoenixContact_MCV_1,5_2-G-3.5_1x03_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7D5EF4
+Path = /5B60002E
+Reference = J16;
+ValeurCmp = Screw_Terminal_AQ_1;
+IdModule  = backplate:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B8470C6
+Path = /5B600434
+Reference = J17;
+ValeurCmp = Screw_Terminal_O3_1;
+IdModule  = backplate:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B847076
+Path = /5B6F9B1C
+Reference = J20;
+ValeurCmp = FAN_CONNECTOR;
+IdModule  = backplate:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6E0D59
+Path = /5B5ED312
+Reference = J10;
+ValeurCmp = Conn_SSR_INPUT;
+IdModule  = backplate:screw_terminal_01_02;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B6EEE04
+Path = /5B601577
+Reference = J12;
+ValeurCmp = Conn_SSR_PCB2;
+IdModule  = backplate:screw_terminal_01_03;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B699CDC
+Path = /5B601F48
+Reference = J18;
+ValeurCmp = Conn_TO_ION_AIR;
+IdModule  = backplate:Pin_Header_Straight_1x20_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B75B094
+Path = /5B5EACE1
+Reference = J1;
+ValeurCmp = Conn_PCB1;
+IdModule  = backplate:Pin_Header_Straight_2x07_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B75C09F
+Path = /5B5EA2DD
+Reference = J2;
+ValeurCmp = Conn_PCB2;
+IdModule  = backplate:Pin_Header_Straight_2x07_Pitch2.54mm_horizontal_mirrored;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B75B3D6
+Path = /5B5EB1C7
+Reference = J11;
+ValeurCmp = Conn_flow_sensor_device;
+IdModule  = backplate:Pin_Header_Straight_2x05_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7FAA77
+Path = /5B90A3DC
+Reference = J19;
+ValeurCmp = Conn_01x08;
+IdModule  = backplate:PinHeader_1x08_P2.54mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7B33CC
+Path = /5B90A585
+Reference = J24;
+ValeurCmp = Conn_01x08;
+IdModule  = backplate:PinHeader_1x08_P2.54mm_Vertical_handsolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7B3361
+Path = /5B7604DB
+Reference = R7;
+ValeurCmp = 330;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7B32B0
+Path = /5B7ADD0F
+Reference = R9;
+ValeurCmp = 330;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7B34AE
+Path = /5B7B9789
+Reference = R10;
+ValeurCmp = 330;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7B3391
+Path = /5B7C590F
+Reference = R11;
+ValeurCmp = 330;
+IdModule  = backplate:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+EndListe
