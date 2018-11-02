@@ -1526,4 +1526,6 @@ Wire Wire Line
 	5500 3000 5500 3050
 Wire Wire Line
 	5500 3250 5500 3450
+Text GLabel 8100 4750 3    50   Input ~ 0
+PCB1_ALARM_COM
 $EndSCHEMATC
