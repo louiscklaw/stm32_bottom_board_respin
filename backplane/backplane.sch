@@ -231,13 +231,13 @@ Wire Wire Line
 $Comp
 L bluepill:Screw_Terminal_01x04 J16
 U 1 1 5B60002E
-P 1650 6350
-F 0 "J16" H 1650 6550 50  0000 C CNN
-F 1 "Screw_Terminal_AQ_1" H 1650 6050 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical_handsolder" H 1650 6350 50  0001 C CNN
-F 3 "" H 1650 6350 50  0001 C CNN
-	1    1650 6350
-	-1   0    0    -1  
+P 1650 6450
+F 0 "J16" H 1650 6650 50  0000 C CNN
+F 1 "Screw_Terminal_AQ_1" H 1650 6150 50  0000 C CNN
+F 2 "footprint-lib:mpt_0,5%2f4-2,54" H 1650 6450 50  0001 C CNN
+F 3 "" H 1650 6450 50  0001 C CNN
+	1    1650 6450
+	-1   0    0    1   
 $EndComp
 Text Label 2550 6350 2    60   ~ 0
 AQ1_5V
@@ -258,13 +258,13 @@ Wire Wire Line
 $Comp
 L bluepill:Screw_Terminal_01x04 J17
 U 1 1 5B600434
-P 1650 7100
-F 0 "J17" H 1650 7300 50  0000 C CNN
-F 1 "Screw_Terminal_O3_1" H 1650 6800 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical_handsolder" H 1650 7100 50  0001 C CNN
-F 3 "" H 1650 7100 50  0001 C CNN
-	1    1650 7100
-	-1   0    0    -1  
+P 1650 7200
+F 0 "J17" H 1650 7400 50  0000 C CNN
+F 1 "Screw_Terminal_O3_1" H 1650 6900 50  0000 C CNN
+F 2 "footprint-lib:mpt_0,5%2f4-2,54" H 1650 7200 50  0001 C CNN
+F 3 "" H 1650 7200 50  0001 C CNN
+	1    1650 7200
+	-1   0    0    1   
 $EndComp
 Text Label 2550 7100 2    60   ~ 0
 O3_1_24V
@@ -387,10 +387,10 @@ U 1 1 5B75281B
 P 4100 1250
 F 0 "J13" H 4020 1667 50  0000 C CNN
 F 1 "Conn_01x05" H 4020 1576 50  0000 C CNN
-F 2 "backplate:PhoenixContact_MCV_1,5_8-G-3.5_1x05_P3.50mm_Vertical_handsolder" H 4100 1250 50  0001 C CNN
+F 2 "footprint-lib:mpt_0,5%2f5-2,54" H 4100 1250 50  0001 C CNN
 F 3 "~" H 4100 1250 50  0001 C CNN
 	1    4100 1250
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 5350 1050 2    60   ~ 0
 flow_sensor_shield
