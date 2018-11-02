@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~67~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -11,7 +11,7 @@
 
   (page A4 portrait)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -58,6 +58,7 @@
     (pad_size 2.3 5)
     (pad_drill 1.2)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (grid_origin 125.476 24.13)
     (visible_elements FFFFFF7F)
