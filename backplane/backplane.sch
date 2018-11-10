@@ -680,10 +680,10 @@ F 3 "~" H 8500 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H10
 U 1 1 5BE7E2A8
 P 9550 4950
-F 0 "H?" H 9650 4996 50  0000 L CNN
+F 0 "H10" H 9650 4996 50  0000 L CNN
 F 1 "PCB1" H 9650 4905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9550 4950 50  0001 C CNN
 F 3 "~" H 9550 4950 50  0001 C CNN
@@ -691,10 +691,10 @@ F 3 "~" H 9550 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H11
 U 1 1 5BE7E2AE
 P 9550 5150
-F 0 "H?" H 9650 5196 50  0000 L CNN
+F 0 "H11" H 9650 5196 50  0000 L CNN
 F 1 "PCB1" H 9650 5105 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9550 5150 50  0001 C CNN
 F 3 "~" H 9550 5150 50  0001 C CNN
@@ -702,10 +702,10 @@ F 3 "~" H 9550 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H12
 U 1 1 5BE7E2B4
 P 9550 5350
-F 0 "H?" H 9650 5396 50  0000 L CNN
+F 0 "H12" H 9650 5396 50  0000 L CNN
 F 1 "PCB1" H 9650 5305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9550 5350 50  0001 C CNN
 F 3 "~" H 9550 5350 50  0001 C CNN
@@ -713,10 +713,10 @@ F 3 "~" H 9550 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H13
 U 1 1 5BE7E2BA
 P 9550 5550
-F 0 "H?" H 9650 5596 50  0000 L CNN
+F 0 "H13" H 9650 5596 50  0000 L CNN
 F 1 "PCB1" H 9650 5505 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9550 5550 50  0001 C CNN
 F 3 "~" H 9550 5550 50  0001 C CNN
@@ -724,10 +724,10 @@ F 3 "~" H 9550 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H14
 U 1 1 5BE7E2C0
 P 9550 5750
-F 0 "H?" H 9650 5796 50  0000 L CNN
+F 0 "H14" H 9650 5796 50  0000 L CNN
 F 1 "PCB1" H 9650 5705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9550 5750 50  0001 C CNN
 F 3 "~" H 9550 5750 50  0001 C CNN
@@ -735,14 +735,25 @@ F 3 "~" H 9550 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H15
 U 1 1 5BE81489
 P 9550 5950
-F 0 "H?" H 9650 5996 50  0000 L CNN
+F 0 "H15" H 9650 5996 50  0000 L CNN
 F 1 "PCB1" H 9650 5905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9550 5950 50  0001 C CNN
 F 3 "~" H 9550 5950 50  0001 C CNN
 	1    9550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BE84A69
+P 10300 4950
+F 0 "H?" H 10400 4996 50  0000 L CNN
+F 1 "HEATSINK_SCREW" H 10400 4905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10300 4950 50  0001 C CNN
+F 3 "~" H 10300 4950 50  0001 C CNN
+	1    10300 4950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
