@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -505,9 +505,9 @@ F 3 "" H 6350 2900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 9000 3000 0    60   ~ 0
-SSR-24-DA_P
+SSR-25-DA_P
 Text Label 9000 3100 0    60   ~ 0
-SSR-24-DA_N
+SSR-25-DA_N
 Text Label 9000 3200 0    60   ~ 0
 PCB1_232_RX
 Text Label 9000 3300 0    60   ~ 0
@@ -524,21 +524,17 @@ F 3 "" H 9350 2750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9000 3000 10000 3000
+	8450 3000 10000 3000
 Wire Wire Line
-	9000 3100 10000 3100
-Wire Wire Line
-	9000 3200 10000 3200
-Wire Wire Line
-	9000 3300 10000 3300
+	8450 3100 10000 3100
 Wire Wire Line
 	10000 2900 9350 2900
 Wire Wire Line
 	9350 2900 9350 2750
 Text Label 7550 2900 2    60   ~ 0
-SSR-24-DA_P
+SSR-25-DA_P
 Text Label 7550 3000 2    60   ~ 0
-SSR-24-DA_N
+SSR-25-DA_N
 Wire Wire Line
 	7550 2900 6550 2900
 Wire Wire Line
@@ -756,4 +752,28 @@ F 3 "~" H 9700 4950 50  0001 C CNN
 	1    9700 4950
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6500 6600 1550 900 
+U 5BEEE39B
+F0 "stm32_board" 60
+F1 "stm32_board.sch" 60
+$EndSheet
+Text Label 8450 3300 0    50   ~ 0
+IONAIR_TX
+Text Label 8450 3200 0    50   ~ 0
+IONAIR_RX
+Text GLabel 9000 3400 0    50   Input ~ 0
+PCB1_ALARM_COM
+Wire Wire Line
+	8450 3300 10000 3300
+Wire Wire Line
+	8450 3200 10000 3200
+Text GLabel 8450 3200 0    60   Input ~ 0
+IONAIR_RX
+Text GLabel 8450 3300 0    60   Input ~ 0
+IONAIR_TX
+Text GLabel 8450 3000 0    60   Input ~ 0
+SSR-25-DA_P
+Text GLabel 8450 3100 0    60   Input ~ 0
+SSR-25-DA_N
 $EndSCHEMATC
