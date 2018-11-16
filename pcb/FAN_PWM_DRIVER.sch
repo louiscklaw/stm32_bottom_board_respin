@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
+LIBS:backplane-cache
 LIBS:stm32_bottom_board_respin-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -15,10 +16,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L taobao-r:R471 R7
+L taobao-r:R471 R?
 U 1 1 5BCBA355
 P 2150 2200
-F 0 "R7" V 1954 2200 50  0000 C CNN
+F 0 "R?" V 1954 2200 50  0000 C CNN
 F 1 "R471" V 2045 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 2200 50  0001 C CNN
 F 3 "~" H 2150 2200 50  0001 C CNN
@@ -26,10 +27,10 @@ F 3 "~" H 2150 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L taobao-r:R331 R8
+L taobao-r:R331 R?
 U 1 1 5BCBA411
 P 2850 1600
-F 0 "R8" H 2909 1646 50  0000 L CNN
+F 0 "R?" H 2909 1646 50  0000 L CNN
 F 1 "R331" H 2909 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2850 1600 50  0001 C CNN
 F 3 "~" H 2850 1600 50  0001 C CNN
@@ -47,10 +48,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 1700 2850 1850
 $Comp
-L power:GND #PWR016
+L power:GND #PWR?
 U 1 1 5BCBA643
 P 2850 2700
-F 0 "#PWR016" H 2850 2450 50  0001 C CNN
+F 0 "#PWR?" H 2850 2450 50  0001 C CNN
 F 1 "GND" H 2855 2527 50  0000 C CNN
 F 2 "" H 2850 2700 50  0001 C CNN
 F 3 "" H 2850 2700 50  0001 C CNN
@@ -67,10 +68,10 @@ Wire Wire Line
 Text HLabel 3750 1850 2    50   Input ~ 0
 FAN_PWM_OUTPUT
 $Comp
-L power:VDD #PWR015
+L power:VDD #PWR?
 U 1 1 5BCBA5C6
 P 2850 1300
-F 0 "#PWR015" H 2850 1150 50  0001 C CNN
+F 0 "#PWR?" H 2850 1150 50  0001 C CNN
 F 1 "VDD" H 2867 1473 50  0000 C CNN
 F 2 "" H 2850 1300 50  0001 C CNN
 F 3 "" H 2850 1300 50  0001 C CNN
@@ -78,12 +79,12 @@ F 3 "" H 2850 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-transistor:SS9013_J3 Q2
+L taobao-transistor:SS9013_J3 Q?
 U 1 1 5BCBC4D0
 P 2750 2200
-AR Path="/5BCBC4D0" Ref="Q2"  Part="1" 
-AR Path="/5BCBA20B/5BCBC4D0" Ref="Q2"  Part="1" 
-F 0 "Q2" H 2950 2250 50  0000 L CNN
+AR Path="/5BCBC4D0" Ref="Q?"  Part="1" 
+AR Path="/5BCBA20B/5BCBC4D0" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2950 2250 50  0000 L CNN
 F 1 "SS9013_J3" H 2950 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 2125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2750 2200 50  0001 L CNN
@@ -93,10 +94,10 @@ $EndComp
 Text HLabel 1750 3900 0    50   Input ~ 0
 STM32_FAN_RPM
 $Comp
-L power:VDD #PWR0124
+L power:VDD #PWR?
 U 1 1 5BDC0579
 P 2350 3350
-F 0 "#PWR0124" H 2350 3200 50  0001 C CNN
+F 0 "#PWR?" H 2350 3200 50  0001 C CNN
 F 1 "VDD" H 2367 3523 50  0000 C CNN
 F 2 "" H 2350 3350 50  0001 C CNN
 F 3 "" H 2350 3350 50  0001 C CNN
@@ -104,10 +105,10 @@ F 3 "" H 2350 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-r:R103 R24
+L taobao-r:R103 R?
 U 1 1 5BDC0610
 P 2350 3600
-F 0 "R24" H 2409 3646 50  0000 L CNN
+F 0 "R?" H 2409 3646 50  0000 L CNN
 F 1 "R103" H 2409 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2350 3600 50  0001 C CNN
 F 3 "~" H 2350 3600 50  0001 C CNN
@@ -115,10 +116,10 @@ F 3 "~" H 2350 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:1N4148 D8
+L taobao-d:1N4148 D?
 U 1 1 5BDC3BB5
 P 2550 3900
-F 0 "D8" H 2550 3695 50  0000 C CNN
+F 0 "D?" H 2550 3695 50  0000 C CNN
 F 1 "1N4148" H 2550 3786 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2550 3900 50  0001 C CNN
 F 3 "~" V 2550 3900 50  0001 C CNN
