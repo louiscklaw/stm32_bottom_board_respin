@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -606,4 +606,10 @@ Text GLabel 15800 8100 2    60   Input ~ 0
 SSR-25-DA_P
 Text GLabel 15800 8200 2    60   Input ~ 0
 SSR-25-DA_N
+$Sheet
+S 6200 11050 1500 850 
+U 5BF2E866
+F0 "IONAIR_ALARM" 50
+F1 "IONAIR_ALARM.sch" 50
+$EndSheet
 $EndSCHEMATC

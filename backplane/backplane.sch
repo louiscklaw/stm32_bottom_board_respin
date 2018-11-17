@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -776,4 +776,8 @@ Text GLabel 8450 3000 0    60   Input ~ 0
 SSR-25-DA_P
 Text GLabel 8450 3100 0    60   Input ~ 0
 SSR-25-DA_N
+Text GLabel 6550 2100 0    60   Input ~ 0
+IONAIR_RX
+Text GLabel 6550 2200 0    60   Input ~ 0
+IONAIR_TX
 $EndSCHEMATC

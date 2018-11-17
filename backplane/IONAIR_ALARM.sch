@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+LIBS:backplane-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VDD #PWR?
+U 1 1 5BF4324F
+P 4050 2350
+AR Path="/5BEEE39B/5BCBA20B/5BF4324F" Ref="#PWR?"  Part="1" 
+AR Path="/5BEEE39B/5BF2E866/5BF4324F" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 4050 2200 50  0001 C CNN
+F 1 "VDD" H 4067 2523 50  0000 C CNN
+F 2 "" H 4050 2350 50  0001 C CNN
+F 3 "" H 4050 2350 50  0001 C CNN
+	1    4050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103 R?
+U 1 1 5BF43255
+P 4050 2600
+AR Path="/5BEEE39B/5BCBA20B/5BF43255" Ref="R?"  Part="1" 
+AR Path="/5BEEE39B/5BF2E866/5BF43255" Ref="R28"  Part="1" 
+F 0 "R28" H 4109 2646 50  0000 L CNN
+F 1 "R103" H 4109 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 2600 50  0001 C CNN
+F 3 "~" H 4050 2600 50  0001 C CNN
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-d:1N4148 D?
+U 1 1 5BF4325C
+P 4250 2900
+AR Path="/5BEEE39B/5BCBA20B/5BF4325C" Ref="D?"  Part="1" 
+AR Path="/5BEEE39B/5BF2E866/5BF4325C" Ref="D10"  Part="1" 
+F 0 "D10" H 4250 2695 50  0000 C CNN
+F 1 "1N4148" H 4250 2786 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 4250 2900 50  0001 C CNN
+F 3 "~" V 4250 2900 50  0001 C CNN
+	1    4250 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2350 4050 2500
+Wire Wire Line
+	3450 2900 4050 2900
+Wire Wire Line
+	4050 2900 4050 2700
+Wire Wire Line
+	4050 2900 4150 2900
+Connection ~ 4050 2900
+Wire Wire Line
+	4350 2900 5450 2900
+Text GLabel 3450 2900 0    60   Input ~ 0
+STM32_PCB1_ALARM_COM
+Text GLabel 5450 2900 2    60   Input ~ 0
+PCB1_ALARM_COM
+$EndSCHEMATC
