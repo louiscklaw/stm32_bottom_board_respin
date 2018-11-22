@@ -582,7 +582,7 @@ U 1 1 5BE6E1EE
 P 7750 4950
 F 0 "H1" H 7850 4996 50  0000 L CNN
 F 1 "PCB1" H 7850 4905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 7750 4950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 7750 4950 50  0001 C CNN
 F 3 "~" H 7750 4950 50  0001 C CNN
 	1    7750 4950
 	1    0    0    -1  
@@ -593,7 +593,7 @@ U 1 1 5BE6E3BE
 P 7750 5150
 F 0 "H2" H 7850 5196 50  0000 L CNN
 F 1 "PCB2" H 7850 5105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 7750 5150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 7750 5150 50  0001 C CNN
 F 3 "~" H 7750 5150 50  0001 C CNN
 	1    7750 5150
 	1    0    0    -1  
@@ -604,7 +604,7 @@ U 1 1 5BE6E3F6
 P 7750 5350
 F 0 "H3" H 7850 5396 50  0000 L CNN
 F 1 "PCB1" H 7850 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 7750 5350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 7750 5350 50  0001 C CNN
 F 3 "~" H 7750 5350 50  0001 C CNN
 	1    7750 5350
 	1    0    0    -1  
@@ -615,7 +615,7 @@ U 1 1 5BE6E42C
 P 7750 5550
 F 0 "H4" H 7850 5596 50  0000 L CNN
 F 1 "PCB2" H 7850 5505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 7750 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 7750 5550 50  0001 C CNN
 F 3 "~" H 7750 5550 50  0001 C CNN
 	1    7750 5550
 	1    0    0    -1  
@@ -626,7 +626,7 @@ U 1 1 5BE6E69F
 P 8500 4950
 F 0 "H5" H 8600 4996 50  0000 L CNN
 F 1 "PCB1" H 8600 4905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8500 4950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 8500 4950 50  0001 C CNN
 F 3 "~" H 8500 4950 50  0001 C CNN
 	1    8500 4950
 	1    0    0    -1  
@@ -637,7 +637,7 @@ U 1 1 5BE74A69
 P 8500 5150
 F 0 "H6" H 8600 5196 50  0000 L CNN
 F 1 "PCB2" H 8600 5105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8500 5150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 8500 5150 50  0001 C CNN
 F 3 "~" H 8500 5150 50  0001 C CNN
 	1    8500 5150
 	1    0    0    -1  
@@ -648,7 +648,7 @@ U 1 1 5BE77C40
 P 8500 5350
 F 0 "H7" H 8600 5396 50  0000 L CNN
 F 1 "PCB1" H 8600 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8500 5350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 8500 5350 50  0001 C CNN
 F 3 "~" H 8500 5350 50  0001 C CNN
 	1    8500 5350
 	1    0    0    -1  
@@ -659,7 +659,7 @@ U 1 1 5BE77C46
 P 8500 5550
 F 0 "H8" H 8600 5596 50  0000 L CNN
 F 1 "PCB2" H 8600 5505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8500 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 8500 5550 50  0001 C CNN
 F 3 "~" H 8500 5550 50  0001 C CNN
 	1    8500 5550
 	1    0    0    -1  
@@ -670,7 +670,7 @@ U 1 1 5BE7ADFF
 P 8500 5750
 F 0 "H9" H 8600 5796 50  0000 L CNN
 F 1 "PCB1" H 8600 5705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8500 5750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 8500 5750 50  0001 C CNN
 F 3 "~" H 8500 5750 50  0001 C CNN
 	1    8500 5750
 	1    0    0    -1  
@@ -747,7 +747,7 @@ U 1 1 5BE84A69
 P 9700 4950
 F 0 "H16" H 9800 4996 50  0000 L CNN
 F 1 "HEATSINK_SCREW" H 9800 4905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9700 4950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 9700 4950 50  0001 C CNN
 F 3 "~" H 9700 4950 50  0001 C CNN
 	1    9700 4950
 	1    0    0    -1  
@@ -780,4 +780,48 @@ Text GLabel 6550 2100 0    60   Input ~ 0
 IONAIR_RX
 Text GLabel 6550 2200 0    60   Input ~ 0
 IONAIR_TX
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BF6BD7A
+P 6650 4950
+F 0 "H?" H 6750 4996 50  0000 L CNN
+F 1 "STM32_MOUNT" H 6750 4905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 6650 4950 50  0001 C CNN
+F 3 "~" H 6650 4950 50  0001 C CNN
+	1    6650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BF6BD80
+P 6650 5150
+F 0 "H?" H 6750 5196 50  0000 L CNN
+F 1 "STM32_MOUNT" H 6750 5105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 6650 5150 50  0001 C CNN
+F 3 "~" H 6650 5150 50  0001 C CNN
+	1    6650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BF6BD86
+P 6650 5350
+F 0 "H?" H 6750 5396 50  0000 L CNN
+F 1 "STM32_MOUNT" H 6750 5305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 6650 5350 50  0001 C CNN
+F 3 "~" H 6650 5350 50  0001 C CNN
+	1    6650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BF6BD8C
+P 6650 5550
+F 0 "H?" H 6750 5596 50  0000 L CNN
+F 1 "STM32_MOUNT" H 6750 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.7mm" H 6650 5550 50  0001 C CNN
+F 3 "~" H 6650 5550 50  0001 C CNN
+	1    6650 5550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
