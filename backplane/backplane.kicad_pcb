@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 22)
+    (drawings 23)
     (tracks 1527)
     (zones 0)
     (modules 117)
@@ -5222,6 +5222,9 @@
     )
   )
 
+  (gr_text "add 8 pin sub connector\nadd mount hold for sub-board\n" (at -5.21 44.15 90) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_circle (center 10 285) (end 16 285) (layer Dwgs.User) (width 1) (tstamp 5BFE6C86))
   (gr_circle (center 190 285) (end 196 285) (layer Dwgs.User) (width 1) (tstamp 5B61C4F3))
   (gr_text N (at 40.476 271.182381 90) (layer F.SilkS)
