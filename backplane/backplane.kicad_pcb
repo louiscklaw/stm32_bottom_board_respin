@@ -5002,7 +5002,7 @@
   )
 
   (module footprint-lib:s8b-ph-kl (layer F.Cu) (tedit 5BE6BF6C) (tstamp 5BF7A295)
-    (at 6.283501 127.13 270)
+    (at 6.283501 37.13 270)
     (descr "JST PH series connector, S8B-PH-KL")
     (path /5BEF33B6)
     (clearance 0.3)
