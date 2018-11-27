@@ -781,10 +781,10 @@ IONAIR_RX
 Text GLabel 6550 2200 0    60   Input ~ 0
 IONAIR_TX
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H17
 U 1 1 5BF6BD7A
 P 6650 4950
-F 0 "H?" H 6750 4996 50  0000 L CNN
+F 0 "H17" H 6750 4996 50  0000 L CNN
 F 1 "STM32_MOUNT" H 6750 4905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 6650 4950 50  0001 C CNN
 F 3 "~" H 6650 4950 50  0001 C CNN
@@ -792,10 +792,10 @@ F 3 "~" H 6650 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H18
 U 1 1 5BF6BD80
 P 6650 5150
-F 0 "H?" H 6750 5196 50  0000 L CNN
+F 0 "H18" H 6750 5196 50  0000 L CNN
 F 1 "STM32_MOUNT" H 6750 5105 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 6650 5150 50  0001 C CNN
 F 3 "~" H 6650 5150 50  0001 C CNN
@@ -803,10 +803,10 @@ F 3 "~" H 6650 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H19
 U 1 1 5BF6BD86
 P 6650 5350
-F 0 "H?" H 6750 5396 50  0000 L CNN
+F 0 "H19" H 6750 5396 50  0000 L CNN
 F 1 "STM32_MOUNT" H 6750 5305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 6650 5350 50  0001 C CNN
 F 3 "~" H 6650 5350 50  0001 C CNN
@@ -814,14 +814,18 @@ F 3 "~" H 6650 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H20
 U 1 1 5BF6BD8C
 P 6650 5550
-F 0 "H?" H 6750 5596 50  0000 L CNN
+F 0 "H20" H 6750 5596 50  0000 L CNN
 F 1 "STM32_MOUNT" H 6750 5505 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 6650 5550 50  0001 C CNN
 F 3 "~" H 6650 5550 50  0001 C CNN
 	1    6650 5550
 	1    0    0    -1  
 $EndComp
+Text GLabel 3700 3650 2    60   Input ~ 0
+PWR_SOURCE_SSR_L_1
+Text GLabel 3700 3750 2    60   Input ~ 0
+SSR_PCB2_L_2
 $EndSCHEMATC
