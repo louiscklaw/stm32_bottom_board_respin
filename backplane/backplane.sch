@@ -772,10 +772,6 @@ Text GLabel 8450 3200 0    60   Input ~ 0
 IONAIR_RX
 Text GLabel 8450 3300 0    60   Input ~ 0
 IONAIR_TX
-Text GLabel 8450 3000 0    60   Input ~ 0
-SSR-25-DA_P
-Text GLabel 8450 3100 0    60   Input ~ 0
-SSR-25-DA_N
 Text GLabel 6550 2100 0    60   Input ~ 0
 IONAIR_RX
 Text GLabel 6550 2200 0    60   Input ~ 0
@@ -828,4 +824,8 @@ Text GLabel 3700 3650 2    60   Input ~ 0
 PWR_SOURCE_SSR_L_1
 Text GLabel 3700 3750 2    60   Input ~ 0
 SSR_PCB2_L_2
+Text GLabel 8450 3000 0    60   Input ~ 0
+RELAY_P
+Text GLabel 8450 3100 0    60   Input ~ 0
+RELAY_N
 $EndSCHEMATC
