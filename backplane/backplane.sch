@@ -462,14 +462,14 @@ Wire Wire Line
 Wire Wire Line
 	6400 1300 8100 1300
 Wire Wire Line
-	6550 2100 7850 2100
+	6550 2200 7850 2200
 Wire Wire Line
 	6550 2000 7500 2000
 Text Label 6550 2000 0    60   ~ 0
 PCB1_UART_COM
-Text Label 6550 2100 0    60   ~ 0
-PCB1_232_RX
 Text Label 6550 2200 0    60   ~ 0
+PCB1_232_RX
+Text Label 6550 2100 0    60   ~ 0
 PCB1_232_TX
 $Comp
 L bluepill:Conn_01x03 J23
@@ -496,13 +496,13 @@ $EndComp
 $Comp
 L bluepill:Conn_01x02 J3
 U 1 1 5BEF34ED
-P 6350 2900
-F 0 "J3" H 6350 3000 50  0000 C CNN
-F 1 "SSR_CONTROL" H 6350 2700 50  0000 C CNN
-F 2 "footprint-lib:mpt_0,5%2f2-2,54" H 6350 2900 50  0001 C CNN
-F 3 "" H 6350 2900 50  0001 C CNN
-	1    6350 2900
-	-1   0    0    -1  
+P 6350 3000
+F 0 "J3" H 6350 3100 50  0000 C CNN
+F 1 "SSR_CONTROL" H 6350 2800 50  0000 C CNN
+F 2 "footprint-lib:mpt_0,5%2f2-2,54" H 6350 3000 50  0001 C CNN
+F 3 "" H 6350 3000 50  0001 C CNN
+	1    6350 3000
+	-1   0    0    1   
 $EndComp
 Text Label 9000 3000 0    60   ~ 0
 SSR-25-DA_P
@@ -575,7 +575,7 @@ Connection ~ 7500 2000
 Wire Wire Line
 	7500 2000 7850 2000
 Wire Wire Line
-	6550 2200 7850 2200
+	6550 2100 7850 2100
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5BE6E1EE
@@ -772,9 +772,9 @@ Text GLabel 8450 3200 0    60   Input ~ 0
 IONAIR_RX
 Text GLabel 8450 3300 0    60   Input ~ 0
 IONAIR_TX
-Text GLabel 6550 2100 0    60   Input ~ 0
-IONAIR_RX
 Text GLabel 6550 2200 0    60   Input ~ 0
+IONAIR_RX
+Text GLabel 6550 2100 0    60   Input ~ 0
 IONAIR_TX
 $Comp
 L Mechanical:MountingHole H17
