@@ -1,4 +1,92 @@
-Cmp-Mod V01 Created by PcbNew   date = Tuesday, November 27, 2018 PM08:44:05 HKT
+Cmp-Mod V01 Created by PcbNew   date = Thursday, November 29, 2018 PM06:01:26 HKT
+
+BeginCmp
+TimeStamp = 5C0FCE5D
+Path = /5BEEE39B/5BCB6FA2/5BCC6C8D
+Reference = Y1;
+ValeurCmp = O8M;
+IdModule  = footprint-lib:hc-49_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BFED428
+Path = /5B60002E
+Reference = J16;
+ValeurCmp = AQ1;
+IdModule  = footprint-lib:AQ_mpt_0,5%2f4-2,54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BFED412
+Path = /5B5FFAB1
+Reference = J15;
+ValeurCmp = AQ2;
+IdModule  = footprint-lib:AQ_mpt_0,5%2f4-2,54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BFED22A
+Path = /5B75281B
+Reference = J13;
+ValeurCmp = FLOW;
+IdModule  = footprint-lib:flow_mpt_0,5%2f5-2,54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BFED20A
+Path = /5B600434
+Reference = J17;
+ValeurCmp = O3;
+IdModule  = footprint-lib:mpt_0,5%2f4-2,54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BFE9F9A
+Path = /5BEF34ED
+Reference = J3;
+ValeurCmp = SSR_CONTROL;
+IdModule  = footprint-lib:mpt_0,5%2f2-2,54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BFC53D1
+Path = /5BEEE39B/5BCB4A39/5BCB53B0
+Reference = U1;
+ValeurCmp = OMRON-G3MB-202P;
+IdModule  = footprint-lib:OMRON-G3MB-202P;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF1415D
+Path = /5BEEE39B/5BCB4A39/5BE460F1
+Reference = U2;
+ValeurCmp = OMRON-G3MB-202P;
+IdModule  = footprint-lib:OMRON-G3MB-202P;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEF4381
+Path = /5BEEE39B/5BCB679F/5BDCB69D
+Reference = R14;
+ValeurCmp = R151;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C0CAD79
+Path = /5BEEE39B/5BCB679F/5BFF70E1
+Reference = D11;
+ValeurCmp = SD_M7;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C0C86DC
+Path = /5BEEE39B/5BCB679F/5BFF6769
+Reference = K1;
+ValeurCmp = SLA-05VDC-SL-C;
+IdModule  = footprint-lib:SLA-05VDC-SL-C;
+EndCmp
 
 BeginCmp
 TimeStamp = 5BEF3E29
@@ -17,7 +105,7 @@ IdModule  = Connector_JST:JST_XH_S08B-XH-A_1x08_P2.50mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BF142E3
+TimeStamp = 5BFE9E47
 Path = /5BEEE39B/5BE5623C
 Reference = J9;
 ValeurCmp = SSR2;
@@ -427,7 +515,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5BEF46C3
 Path = /5BEEE39B/5BCB6FA2/5BCF9021
-Reference = BOOT2;
+Reference = BOOT1;
 ValeurCmp = JUMPER;
 IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm;
 EndCmp
@@ -435,7 +523,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5BEF46AF
 Path = /5BEEE39B/5BCB6FA2/5BCF8FA5
-Reference = BOOT1;
+Reference = BOOT0;
 ValeurCmp = JUMPER;
 IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm;
 EndCmp
@@ -633,14 +721,6 @@ IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BEF4381
-Path = /5BEEE39B/5BCB679F/5BDCB69D
-Reference = R14;
-ValeurCmp = R151;
-IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BF141A7
 Path = /5BEEE39B/5BCB4A39/5BE460C2
 Reference = R6;
@@ -761,22 +841,6 @@ IdModule  = footprint-lib:MC-306;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BFC53D1
-Path = /5BEEE39B/5BCB4A39/5BCB53B0
-Reference = U1;
-ValeurCmp = OMRON-G3MB-202P;
-IdModule  = footprint-lib:OMRON-G3MB-202P;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BF1415D
-Path = /5BEEE39B/5BCB4A39/5BE460F1
-Reference = U2;
-ValeurCmp = OMRON-G3MB-202P;
-IdModule  = footprint-lib:OMRON-G3MB-202P;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BEF3FD6
 Path = /5BEEE39B/5BCE47B4/5BCEE512
 Reference = U7;
@@ -793,14 +857,6 @@ IdModule  = footprint-lib:waveshare-swd-pinsocket;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BEF3D91
-Path = /5BEEE39B/5BCB6FA2/5BCC6C8D
-Reference = Y1;
-ValeurCmp = O8M;
-IdModule  = w_crystal:hc-49_smd;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BEF0547
 Path = /5B7BE1F9
 Reference = J25;
@@ -814,38 +870,6 @@ Path = /5B601AE7
 Reference = J5;
 ValeurCmp = Conn_SSR_POWER_SOURCE;
 IdModule  = backplate:screw_terminal_01_03;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BEF034F
-Path = /5B600434
-Reference = J17;
-ValeurCmp = O3;
-IdModule  = footprint-lib:mpt_0,5%2f4-2,54;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BFE55E9
-Path = /5B60002E
-Reference = J16;
-ValeurCmp = AQ1;
-IdModule  = footprint-lib:AQ_mpt_0,5%2f4-2,54;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BFE55FB
-Path = /5B5FFAB1
-Reference = J15;
-ValeurCmp = AQ2;
-IdModule  = footprint-lib:AQ_mpt_0,5%2f4-2,54;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C20F1AA
-Path = /5B75281B
-Reference = J13;
-ValeurCmp = FLOW;
-IdModule  = footprint-lib:flow_mpt_0,5%2f5-2,54;
 EndCmp
 
 BeginCmp
@@ -878,14 +902,6 @@ Path = /5B6327A8
 Reference = J23;
 ValeurCmp = PCB1_COMM_CONNECTOR;
 IdModule  = backplate:Pin_Header_Straight_1x03_Pitch2.54mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BF7A2A4
-Path = /5BEF34ED
-Reference = J3;
-ValeurCmp = SSR_CONTROL;
-IdModule  = footprint-lib:mpt_0,5%2f2-2,54;
 EndCmp
 
 BeginCmp

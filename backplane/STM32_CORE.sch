@@ -409,7 +409,7 @@ U 1 1 5BCC6C8D
 P 14700 6700
 F 0 "Y1" V 14654 6788 50  0000 L CNN
 F 1 "O8M" V 14745 6788 50  0000 L CNN
-F 2 "w_crystal:hc-49_smd" H 14700 6700 50  0001 C CNN
+F 2 "footprint-lib:hc-49_smd" H 14700 6700 50  0001 C CNN
 F 3 "~" H 14700 6700 50  0001 C CNN
 	1    14700 6700
 	0    1    1    0   
@@ -584,10 +584,10 @@ Wire Wire Line
 Wire Wire Line
 	14500 3100 14500 3350
 $Comp
-L Jumper:SolderJumper_3_Open BOOT1
+L Jumper:SolderJumper_3_Open BOOT0
 U 1 1 5BCF8FA5
 P 11900 1800
-F 0 "BOOT1" V 11854 1868 50  0000 L CNN
+F 0 "BOOT0" V 11854 1868 50  0000 L CNN
 F 1 "JUMPER" V 11945 1868 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 11900 1800 50  0001 C CNN
 F 3 "~" H 11900 1800 50  0001 C CNN
@@ -595,10 +595,10 @@ F 3 "~" H 11900 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open BOOT2
+L Jumper:SolderJumper_3_Open BOOT1
 U 1 1 5BCF9021
 P 12750 1800
-F 0 "BOOT2" V 12704 1868 50  0000 L CNN
+F 0 "BOOT1" V 12704 1868 50  0000 L CNN
 F 1 "JUMPER" V 12795 1868 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 12750 1800 50  0001 C CNN
 F 3 "~" H 12750 1800 50  0001 C CNN
