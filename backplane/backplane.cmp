@@ -1,4 +1,44 @@
-Cmp-Mod V01 Created by PcbNew   date = Thursday, November 29, 2018 PM06:01:26 HKT
+Cmp-Mod V01 Created by PcbNew   date = Thursday, November 29, 2018 PM07:31:55 HKT
+
+BeginCmp
+TimeStamp = 5C0C86DC
+Path = /5BEEE39B/5BCB679F/5BFF6769
+Reference = K1;
+ValeurCmp = SLA-05VDC-SL-C;
+IdModule  = footprint-lib:SLA-05VDC-SL-C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6EB28
+Path = /5BEEE39B/5BCB416C
+Reference = J7;
+ValeurCmp = WS2812;
+IdModule  = Connector_JST:JST_XH_S03B-XH-A-1_1x03_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF6EA12
+Path = /5BEEE39B/5BCBC3BF
+Reference = J11;
+ValeurCmp = FAN;
+IdModule  = Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BF812F3
+Path = /5BEEE39B/5BCC1C7F
+Reference = J6;
+ValeurCmp = 48V_SRC;
+IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEF3EAB
+Path = /5BEEE39B/5BCB6FA2/5BD193F5
+Reference = J22;
+ValeurCmp = POWER;
+IdModule  = Connector_JST:JST_XH_S03B-XH-A-1_1x03_P2.50mm_Horizontal;
+EndCmp
 
 BeginCmp
 TimeStamp = 5C0FCE5D
@@ -81,14 +121,6 @@ IdModule  = Diode_SMD:D_SOD-123;
 EndCmp
 
 BeginCmp
-TimeStamp = 5C0C86DC
-Path = /5BEEE39B/5BCB679F/5BFF6769
-Reference = K1;
-ValeurCmp = SLA-05VDC-SL-C;
-IdModule  = footprint-lib:SLA-05VDC-SL-C;
-EndCmp
-
-BeginCmp
 TimeStamp = 5BEF3E29
 Path = /5BEEE39B/5BDCE0AC/5BDCE1BA
 Reference = J28;
@@ -118,38 +150,6 @@ Path = /5BEEE39B/5BCB6490
 Reference = J8;
 ValeurCmp = PURFUME;
 IdModule  = Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BF812F3
-Path = /5BEEE39B/5BCC1C7F
-Reference = J6;
-ValeurCmp = 48V_SRC;
-IdModule  = Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BF6EA12
-Path = /5BEEE39B/5BCBC3BF
-Reference = J11;
-ValeurCmp = FAN;
-IdModule  = Connector_JST:JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BEF3EAB
-Path = /5BEEE39B/5BCB6FA2/5BD193F5
-Reference = J22;
-ValeurCmp = POWER;
-IdModule  = Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BF6EB28
-Path = /5BEEE39B/5BCB416C
-Reference = J7;
-ValeurCmp = WS2812;
-IdModule  = Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal;
 EndCmp
 
 BeginCmp
@@ -337,7 +337,7 @@ IdModule  = Capacitor_SMD:CP_Elec_10x10.5;
 EndCmp
 
 BeginCmp
-TimeStamp = 5C06DEAF
+TimeStamp = 5C1E3D0B
 Path = /5BEEE39B/5BCB6CCE
 Reference = C1;
 ValeurCmp = CP1000uf,10V;
