@@ -828,4 +828,6 @@ Text GLabel 8450 3000 0    60   Input ~ 0
 RELAY_P
 Text GLabel 8450 3100 0    60   Input ~ 0
 RELAY_N
+Text Notes 8200 2200 0    60   ~ 0
+1: IONAIR GND\n2: IONAIR RX PIN\n3: IONAIR TX PIN
 $EndSCHEMATC
