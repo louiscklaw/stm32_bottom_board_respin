@@ -49,6 +49,35 @@
 
 /* Private define ------------------------------------------------------------*/
 
+#define IONAIR_TTL_TX_Pin GPIO_PIN_2
+#define IONAIR_TTL_TX_GPIO_Port GPIOA
+#define IONAIR_TTL_RX_Pin GPIO_PIN_3
+#define IONAIR_TTL_RX_GPIO_Port GPIOA
+#define STM32_WS2812_OUTPUT_Pin GPIO_PIN_6
+#define STM32_WS2812_OUTPUT_GPIO_Port GPIOA
+#define STM32_SSR2_OUTPUT_Pin GPIO_PIN_7
+#define STM32_SSR2_OUTPUT_GPIO_Port GPIOA
+#define STM32_SSR1_OUTPUT_Pin GPIO_PIN_0
+#define STM32_SSR1_OUTPUT_GPIO_Port GPIOB
+#define STM32_SSR_25_DA_OUTPUT_Pin GPIO_PIN_1
+#define STM32_SSR_25_DA_OUTPUT_GPIO_Port GPIOB
+#define STM32_PMS7003S_TXD_Pin GPIO_PIN_10
+#define STM32_PMS7003S_TXD_GPIO_Port GPIOB
+#define STM32_PMS7003S_RXD_Pin GPIO_PIN_11
+#define STM32_PMS7003S_RXD_GPIO_Port GPIOB
+#define STM32_FAN_RPM_OUTPUT_Pin GPIO_PIN_12
+#define STM32_FAN_RPM_OUTPUT_GPIO_Port GPIOB
+#define STM32_FAN_PWM_OUTPUT_Pin GPIO_PIN_8
+#define STM32_FAN_PWM_OUTPUT_GPIO_Port GPIOA
+#define STM32_PMS7003S_SET_Pin GPIO_PIN_11
+#define STM32_PMS7003S_SET_GPIO_Port GPIOA
+#define STM32_PMS7003S_RESET_Pin GPIO_PIN_12
+#define STM32_PMS7003S_RESET_GPIO_Port GPIOA
+#define B2B_UART_TX_Pin GPIO_PIN_6
+#define B2B_UART_TX_GPIO_Port GPIOB
+#define B2B_UART_RX_Pin GPIO_PIN_7
+#define B2B_UART_RX_GPIO_Port GPIOB
+
 /* ########################## Assert Selection ############################## */
 /**
   * @brief Uncomment the line below to expanse the "assert_param" macro in the 
