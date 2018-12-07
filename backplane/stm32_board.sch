@@ -149,12 +149,12 @@ connect the main power supply to VWS2812
 $Comp
 L taobao-components:VWS2812 #PWR0106
 U 1 1 5BCB629E
-P 4200 8650
-F 0 "#PWR0106" H 4200 8500 50  0001 C CNN
-F 1 "VWS2812" H 4217 8823 50  0000 C CNN
-F 2 "" H 4200 8650 50  0001 C CNN
-F 3 "" H 4200 8650 50  0001 C CNN
-	1    4200 8650
+P 4500 8650
+F 0 "#PWR0106" H 4500 8500 50  0001 C CNN
+F 1 "VWS2812" H 4517 8823 50  0000 C CNN
+F 2 "" H 4500 8650 50  0001 C CNN
+F 3 "" H 4500 8650 50  0001 C CNN
+	1    4500 8650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -168,8 +168,6 @@ F 3 "" H 4200 9100 50  0001 C CNN
 	1    4200 9100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 8650 4200 8750
 Wire Wire Line
 	4200 8950 4200 9100
 $Comp
@@ -544,4 +542,37 @@ Text GLabel 4800 2800 0    50   Input ~ 0
 EXT_TRIGGER
 Wire Wire Line
 	4800 2800 5550 2800
+$Comp
+L power:+5V #PWR?
+U 1 1 5C0C4F7B
+P 4200 8350
+F 0 "#PWR?" H 4200 8200 50  0001 C CNN
+F 1 "+5V" H 4215 8523 50  0000 C CNN
+F 2 "" H 4200 8350 50  0001 C CNN
+F 3 "" H 4200 8350 50  0001 C CNN
+	1    4200 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 8650 4500 8700
+Wire Wire Line
+	4500 8700 4200 8700
+Wire Wire Line
+	4200 8700 4200 8750
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5C0C8C74
+P 4200 8500
+F 0 "JP?" V 4154 8548 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 4245 8548 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 8500 50  0001 C CNN
+F 3 "~" H 4200 8500 50  0001 C CNN
+	1    4200 8500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 8350 4200 8400
+Wire Wire Line
+	4200 8600 4200 8700
+Connection ~ 4200 8700
 $EndSCHEMATC
