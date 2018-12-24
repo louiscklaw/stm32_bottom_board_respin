@@ -1,4 +1,20 @@
-Cmp-Mod V01 Created by PcbNew   date = Thursday, November 29, 2018 PM07:31:55 HKT
+Cmp-Mod V01 Created by PcbNew   date = Monday, December 24, 2018 PM06:53:48 HKT
+
+BeginCmp
+TimeStamp = 5C187624
+Path = /5BEEE39B/5C0C8C74
+Reference = JP1;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEF3DBF
+Path = /5BEEE39B/5BCB6FA2/5BDC76BE
+Reference = U3;
+ValeurCmp = waveshare-swd-pinsocket;
+IdModule  = footprint-lib:waveshare-swd-pinsocket;
+EndCmp
 
 BeginCmp
 TimeStamp = 5C0C86DC
@@ -108,7 +124,7 @@ BeginCmp
 TimeStamp = 5BEF4381
 Path = /5BEEE39B/5BCB679F/5BDCB69D
 Reference = R14;
-ValeurCmp = R151;
+ValeurCmp = R220;
 IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -846,14 +862,6 @@ Path = /5BEEE39B/5BCE47B4/5BCEE512
 Reference = U7;
 ValeurCmp = SP3232EEN;
 IdModule  = footprint-lib:SOP-16_4.4x10.4mm_Pitch1.27mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5BEF3DBF
-Path = /5BEEE39B/5BCB6FA2/5BDC76BE
-Reference = U3;
-ValeurCmp = waveshare-swd-pinsocket;
-IdModule  = footprint-lib:waveshare-swd-pinsocket;
 EndCmp
 
 BeginCmp
