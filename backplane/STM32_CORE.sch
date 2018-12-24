@@ -404,9 +404,11 @@ F 3 "~" H 14500 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L taobao-osc:O8M Y1
+L backplane-rescue:O8M-taobao-osc Y1
 U 1 1 5BCC6C8D
 P 14700 6700
+AR Path="/5BCC6C8D" Ref="Y1"  Part="1" 
+AR Path="/5BEEE39B/5BCB6FA2/5BCC6C8D" Ref="Y1"  Part="1" 
 F 0 "Y1" V 14654 6788 50  0000 L CNN
 F 1 "O8M" V 14745 6788 50  0000 L CNN
 F 2 "footprint-lib:hc-49_smd" H 14700 6700 50  0001 C CNN
@@ -1289,7 +1291,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 5650 1800 5650
 $Comp
-L taobao-osc:O_EPSON_32.768K Y2
+L backplane-rescue:O_EPSON_32.768K-taobao-osc Y2
 U 1 1 5BD58864
 P 14700 7500
 F 0 "Y2" V 14746 7588 50  0000 L CNN
